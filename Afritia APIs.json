@@ -7,7 +7,7 @@
 	},
 	"item": [
 		{
-			"name": "get Shipping Setting seller",
+			"name": "get All Shipping Setting seller",
 			"request": {
 				"method": "POST",
 				"header": [
