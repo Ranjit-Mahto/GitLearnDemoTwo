@@ -1,0 +1,6592 @@
+{
+	"info": {
+		"_postman_id": "fd546c34-18c2-44dd-919d-6ec749a2ba5e",
+		"name": "Afritia APIs",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "33555347"
+	},
+	"item": [
+		{
+			"name": "get Shipping Setting seller",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					},
+					{
+						"key": "X-Requested-With",
+						"value": "XMLHttpRequest",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "storeId",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "customerToken",
+							"value": "k1zsoq7vm04m75m3vcu9flgutiuwp990",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "customerToken",
+							"value": "1ytosfoonrc3n91v2yp24n08jfkrp635",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "customerToken",
+							"value": "1ytosfoonrc3n91v2yp24n08jfkrp635",
+							"type": "text"
+						}
+					]
+				},
+				"url": "https://stage.afritia.com/afritiaapp/customer/shippingsettingdata"
+			},
+			"response": []
+		},
+		{
+			"name": "get Shipping Setting seller Dev",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					},
+					{
+						"key": "X-Requested-With",
+						"value": "XMLHttpRequest",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
+				"url": "https://devtest.afritia.com/afritiaapp/customer/shippingsettingdata"
+			},
+			"response": []
+		},
+		{
+			"name": "Add Shipping Setting seller",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					},
+					{
+						"key": "X-Requested-With",
+						"value": "XMLHttpRequest",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "storeId",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "customerToken",
+							"value": "k1zsoq7vm04m75m3vcu9flgutiuwp990",
+							"type": "text"
+						},
+						{
+							"key": "company",
+							"value": "Dawodus",
+							"type": "text"
+						},
+						{
+							"key": "telephone",
+							"value": "9638520120",
+							"type": "text"
+						},
+						{
+							"key": "street1",
+							"value": "808 W Van Buren",
+							"type": "text"
+						},
+						{
+							"key": "street2",
+							"value": "test",
+							"type": "text"
+						},
+						{
+							"key": "street3",
+							"value": "test",
+							"type": "text"
+						},
+						{
+							"key": "city",
+							"value": "Chicago",
+							"type": "text"
+						},
+						{
+							"key": "region_id",
+							"value": "23",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "postal_code",
+							"value": "60608",
+							"type": "text"
+						},
+						{
+							"key": "country_id",
+							"value": "US",
+							"type": "text"
+						},
+						{
+							"key": "region",
+							"value": "DARSALAM",
+							"type": "text"
+						},
+						{
+							"key": "phone_code",
+							"value": "+233",
+							"type": "text"
+						}
+					]
+				},
+				"url": "https://devtest.afritia.com/afritiaapp/customer/shippingsetting"
+			},
+			"response": []
+		},
+		{
+			"name": "Add Save Cards",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					},
+					{
+						"key": "X-Requested-With",
+						"value": "XMLHttpRequest",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "storeId",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "customerToken",
+							"value": "q2vna5qzi8im0o1f5i2e3j1xgnvtrnbk",
+							"type": "text"
+						},
+						{
+							"key": "cardnumber",
+							"value": "4111 1111 1111 1111",
+							"type": "text"
+						},
+						{
+							"key": "expirymonth",
+							"value": "10",
+							"type": "text"
+						},
+						{
+							"key": "expiryyear",
+							"value": "23",
+							"type": "text"
+						},
+						{
+							"key": "cvv",
+							"value": "123",
+							"type": "text"
+						}
+					]
+				},
+				"url": "https://devtest.afritia.com/afritiaapp/customer/SaveCard"
+			},
+			"response": []
+		},
+		{
+			"name": "Create Shipment Package",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					},
+					{
+						"key": "X-Requested-With",
+						"value": "XMLHttpRequest",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "storeId",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "customerToken",
+							"value": "ns58c1hmdjzckyq7uucyo7uoquweojs5",
+							"type": "text"
+						},
+						{
+							"key": "shipment[items][1163]",
+							"value": " 1",
+							"type": "text"
+						},
+						{
+							"key": "shipment[create_shipping_label]",
+							"value": " 1",
+							"type": "text"
+						},
+						{
+							"key": "packages[1][params][container]",
+							"value": " D",
+							"type": "text"
+						},
+						{
+							"key": "packages[1][params][weight]",
+							"value": " 0.9",
+							"type": "text"
+						},
+						{
+							"key": "packages[1][params][customs_value]",
+							"value": " 160",
+							"type": "text"
+						},
+						{
+							"key": "packages[1][params][length]",
+							"value": " ",
+							"type": "text"
+						},
+						{
+							"key": "packages[1][params][width]",
+							"value": " ",
+							"type": "text"
+						},
+						{
+							"key": "packages[1][params][height]",
+							"value": " ",
+							"type": "text"
+						},
+						{
+							"key": "packages[1][params][weight_units]",
+							"value": " POUND",
+							"type": "text"
+						},
+						{
+							"key": "packages[1][params][dimension_units]",
+							"value": " INCH",
+							"type": "text"
+						},
+						{
+							"key": "packages[1][params][content_type]",
+							"value": " ",
+							"type": "text"
+						},
+						{
+							"key": "packages[1][params][content_type_other]",
+							"value": " ",
+							"type": "text"
+						},
+						{
+							"key": "packages[1][items][1163][qty]",
+							"value": " 1",
+							"type": "text"
+						},
+						{
+							"key": "packages[1][items][1163][customs_value]",
+							"value": " 160",
+							"type": "text"
+						},
+						{
+							"key": "packages[1][items][1163][price]",
+							"value": " 160.0000",
+							"type": "text"
+						},
+						{
+							"key": "packages[1][items][1163][name]",
+							"value": " G.SKILL Trident Z Royal DDR4 RAM",
+							"type": "text"
+						},
+						{
+							"key": "packages[1][items][1163][weight]",
+							"value": " 0.9000",
+							"type": "text"
+						},
+						{
+							"key": "packages[1][items][1163][product_id]",
+							"value": " 818",
+							"type": "text"
+						},
+						{
+							"key": "packages[1][items][1163][order_item_id]",
+							"value": " 1163",
+							"type": "text"
+						},
+						{
+							"key": "shipment_id",
+							"value": "35",
+							"type": "text"
+						}
+					]
+				},
+				"url": "https://devtest.afritia.com/afritiaapp/Marketplace/CreateShipmentPackage"
+			},
+			"response": []
+		},
+		{
+			"name": "Stage Create Shipment Package",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "X-Requested-With",
+						"value": "XMLHttpRequest",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"storeId\" : 1,\r\n\"customerToken\" : \"1ytosfoonrc3n91v2yp24n08jfkrp635\", \r\n\"shipment\":\r\n{\r\n\"items\":\r\n[\r\n        {\r\n            \"id\": \"57\",\r\n            \"qty_ordered\": \"6.0000\"\r\n        },\r\n        {\r\n            \"id\": \"58\",\r\n            \"qty_ordered\": \"3.0000\"\r\n        }\r\n    ]\r\n},\r\n\"packages\":\r\n[\r\n\r\n{\r\n\"container\": \"N\",\r\n\"weight\": 62.7,\r\n\"customs_value\": 5820,\r\n\"length\": 10,\r\n\"width\": 10,\r\n\"height\": 10,\r\n\"weight_units\": \"POUND\",\r\n\"dimension_units\": \"INCH\",\r\n\"content_type\": \"\",\r\n\"content_type_other\": \"\",\r\n  \"items\":\r\n[\r\n{\r\n \"id\":57,\r\n\"qty\": 6,\r\n\"customs_value\": 890,\r\n\"price\": 890.0000,\r\n\"name\": \"Lenovo ThinkPad X13s\",\r\n\"weight\": 10.0000,\r\n\"product_id\": 819,\r\n\"order_item_id\": 1184\r\n},\r\n{\r\n  \"id\":58,\r\n\"qty\": 3,\r\n\"customs_value\": 160,\r\n\"price\": 160.0000,\r\n\"name\": \"G.SKILL Trident Z Royal DDR4 RAM\",\r\n\"weight\": 0.9000,\r\n\"product_id\": 818,\r\n\"order_item_id\": 1185\r\n}\r\n]\r\n}\r\n\r\n\r\n  ],\r\n\r\n\r\n\"shipment_id\" : 49\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "https://stage.afritia.com/afritiaapp/Marketplace/CreateShipmentPackage"
+			},
+			"response": []
+		},
+		{
+			"name": "Stage Create Shipment Package with multiple package and products",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					},
+					{
+						"key": "X-Requested-With",
+						"value": "XMLHttpRequest",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "storeId",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "customerToken",
+							"value": "1ytosfoonrc3n91v2yp24n08jfkrp635",
+							"type": "text"
+						},
+						{
+							"key": "shipment[items][1169]",
+							"value": "2",
+							"type": "text"
+						},
+						{
+							"key": "shipment[items][1170]",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "shipment[create_shipping_label]",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "packages[1][params][container]",
+							"value": "D",
+							"type": "text"
+						},
+						{
+							"key": "packages[1][params][weight]",
+							"value": "10",
+							"type": "text"
+						},
+						{
+							"key": "packages[1][params][customs_value]",
+							"value": "890",
+							"type": "text"
+						},
+						{
+							"key": "packages[1][params][length]",
+							"value": "10",
+							"type": "text"
+						},
+						{
+							"key": "packages[1][params][width]",
+							"value": "10",
+							"type": "text"
+						},
+						{
+							"key": "packages[1][params][height]",
+							"value": "10",
+							"type": "text"
+						},
+						{
+							"key": "packages[1][params][weight_units]",
+							"value": "POUND",
+							"type": "text"
+						},
+						{
+							"key": "packages[1][params][dimension_units]",
+							"value": "INCH",
+							"type": "text"
+						},
+						{
+							"key": "packages[1][params][content_type]",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "packages[1][params][content_type_other]",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "packages[1][items][46][qty]",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "packages[1][items][46][customs_value]",
+							"value": "890",
+							"type": "text"
+						},
+						{
+							"key": "packages[1][items][46][price]",
+							"value": "890.0000",
+							"type": "text"
+						},
+						{
+							"key": "packages[1][items][46][name]",
+							"value": "Lenovo ThinkPad X13s",
+							"type": "text"
+						},
+						{
+							"key": "packages[1][items][46][weight]",
+							"value": "10.0000",
+							"type": "text"
+						},
+						{
+							"key": "packages[1][items][46][product_id]",
+							"value": "819",
+							"type": "text"
+						},
+						{
+							"key": "packages[1][items][46][order_item_id]",
+							"value": "1169",
+							"type": "text"
+						},
+						{
+							"key": "packages[2][params][container]",
+							"value": "N",
+							"type": "text"
+						},
+						{
+							"key": "packages[2][params][weight]",
+							"value": "10.9",
+							"type": "text"
+						},
+						{
+							"key": "packages[2][params][customs_value]",
+							"value": "1050",
+							"type": "text"
+						},
+						{
+							"key": "packages[2][params][length]",
+							"value": "10",
+							"type": "text"
+						},
+						{
+							"key": "packages[2][params][width]",
+							"value": "10",
+							"type": "text"
+						},
+						{
+							"key": "packages[2][params][height]",
+							"value": "10",
+							"type": "text"
+						},
+						{
+							"key": "packages[2][params][weight_units]",
+							"value": "POUND",
+							"type": "text"
+						},
+						{
+							"key": "packages[2][params][dimension_units]",
+							"value": "INCH",
+							"type": "text"
+						},
+						{
+							"key": "packages[2][params][content_type]",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "packages[2][params][content_type_other]",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "packages[2][items][46][qty]",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "packages[2][items][46][customs_value]",
+							"value": "890",
+							"type": "text"
+						},
+						{
+							"key": "packages[2][items][46][price]",
+							"value": "890.0000",
+							"type": "text"
+						},
+						{
+							"key": "packages[2][items][46][name]",
+							"value": "Lenovo ThinkPad X13s",
+							"type": "text"
+						},
+						{
+							"key": "packages[2][items][46][weight]",
+							"value": "10.0000",
+							"type": "text"
+						},
+						{
+							"key": "packages[2][items][46][product_id]",
+							"value": "819",
+							"type": "text"
+						},
+						{
+							"key": "packages[2][items][46][order_item_id]",
+							"value": "1169",
+							"type": "text"
+						},
+						{
+							"key": "packages[2][items][47][qty]",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "packages[2][items][47][customs_value]",
+							"value": "160",
+							"type": "text"
+						},
+						{
+							"key": "packages[2][items][47][price]",
+							"value": "160.0000",
+							"type": "text"
+						},
+						{
+							"key": "packages[2][items][47][name]",
+							"value": "G.SKILL Trident Z Royal DDR4 RAM",
+							"type": "text"
+						},
+						{
+							"key": "packages[2][items][47][weight]",
+							"value": "0.9000",
+							"type": "text"
+						},
+						{
+							"key": "packages[2][items][47][product_id]",
+							"value": "818",
+							"type": "text"
+						},
+						{
+							"key": "packages[2][items][47][order_item_id]",
+							"value": "1170",
+							"type": "text"
+						},
+						{
+							"key": "shipment_id",
+							"value": "41",
+							"type": "text"
+						}
+					]
+				},
+				"url": "https://stage.afritia.com/afritiaapp/Marketplace/CreateShipmentPackage"
+			},
+			"response": []
+		},
+		{
+			"name": "Get Create Package Information",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					},
+					{
+						"key": "X-Requested-With",
+						"value": "XMLHttpRequest",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "storeId",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "customerToken",
+							"value": "1ytosfoonrc3n91v2yp24n08jfkrp635",
+							"type": "text"
+						},
+						{
+							"key": "shipment_id",
+							"value": "41",
+							"type": "text"
+						}
+					]
+				},
+				"url": "https://stage.afritia.com/afritiaapp/Marketplace/GetCreatePackageInfo"
+			},
+			"response": []
+		},
+		{
+			"name": "Add Shipping Setting seller Stage",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					},
+					{
+						"key": "X-Requested-With",
+						"value": "XMLHttpRequest",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "storeId",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "customerToken",
+							"value": "1ytosfoonrc3n91v2yp24n08jfkrp635",
+							"type": "text"
+						},
+						{
+							"key": "company",
+							"value": "Dawodus",
+							"type": "text"
+						},
+						{
+							"key": "telephone",
+							"value": "9638520120",
+							"type": "text"
+						},
+						{
+							"key": "street1",
+							"value": "808 W Van Buren",
+							"type": "text"
+						},
+						{
+							"key": "street2",
+							"value": "test",
+							"type": "text"
+						},
+						{
+							"key": "street3",
+							"value": "test",
+							"type": "text"
+						},
+						{
+							"key": "city",
+							"value": "Chicago",
+							"type": "text"
+						},
+						{
+							"key": "region_id",
+							"value": "23",
+							"type": "text"
+						},
+						{
+							"key": "postal_code",
+							"value": "60608",
+							"type": "text"
+						},
+						{
+							"key": "country_id",
+							"value": "US",
+							"type": "text"
+						},
+						{
+							"key": "phone_code",
+							"value": "+233",
+							"type": "text"
+						}
+					]
+				},
+				"url": "https://stage.afritia.com/afritiaapp/customer/shippingsetting"
+			},
+			"response": []
+		},
+		{
+			"name": "invoice Download",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					},
+					{
+						"key": "X-Requested-With",
+						"value": "XMLHttpRequest",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "storeId",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "customerToken",
+							"value": "1ytosfoonrc3n91v2yp24n08jfkrp635",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "customerToken",
+							"value": "ns58c1hmdjzckyq7uucyo7uoquweojs5",
+							"type": "text"
+						},
+						{
+							"key": "invoice_id",
+							"value": "000000217",
+							"type": "text"
+						}
+					]
+				},
+				"url": "https://devtest.afritia.com/afritiaapp/customer/invoicelinkDownload"
+			},
+			"response": []
+		},
+		{
+			"name": "print Invoice dev",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					},
+					{
+						"key": "X-Requested-With",
+						"value": "XMLHttpRequest",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "storeId",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "customerToken",
+							"value": "1ytosfoonrc3n91v2yp24n08jfkrp635",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "customerToken",
+							"value": "ns58c1hmdjzckyq7uucyo7uoquweojs5",
+							"type": "text"
+						},
+						{
+							"key": "invoiceId",
+							"value": "000000217",
+							"type": "text"
+						},
+						{
+							"key": "incrementId",
+							"value": "000000563",
+							"type": "text"
+						}
+					]
+				},
+				"url": "https://devtest.afritia.com/mobilempapp/marketplace/printInvoice"
+			},
+			"response": []
+		},
+		{
+			"name": "View Seller Details buyer side",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					},
+					{
+						"key": "X-Requested-With",
+						"value": "XMLHttpRequest",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "storeId",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "customerToken",
+							"value": "k1zsoq7vm04m75m3vcu9flgutiuwp990",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "sellerId",
+							"value": "403",
+							"type": "text"
+						},
+						{
+							"key": "sellerstoreId",
+							"value": "1",
+							"type": "text"
+						}
+					]
+				},
+				"url": "https://devtest.afritia.com/afritiaapp/marketplace/viewsellerdetails"
+			},
+			"response": []
+		},
+		{
+			"name": "View Seller Details buyer side Stage",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					},
+					{
+						"key": "X-Requested-With",
+						"value": "XMLHttpRequest",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "storeId",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "sellerId",
+							"value": "515",
+							"type": "text"
+						},
+						{
+							"key": "sellerstoreId",
+							"value": "1",
+							"type": "text"
+						}
+					]
+				},
+				"url": "https://stage.afritia.com/afritiaapp/marketplace/viewsellerdetails"
+			},
+			"response": []
+		},
+		{
+			"name": "Profile image Update Dev",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					},
+					{
+						"key": "X-Requested-With",
+						"value": "XMLHttpRequest",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "storeId",
+							"value": "0",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "customerToken",
+							"value": "k1zsoq7vm04m75m3vcu9flgutiuwp990",
+							"type": "text"
+						},
+						{
+							"key": "logo_pic",
+							"type": "file",
+							"src": "/C:/Users/Admin/Downloads/image_36.jpg"
+						}
+					]
+				},
+				"url": "https://devtest.afritia.com/afritiaapp/marketplace/profileImage"
+			},
+			"response": []
+		},
+		{
+			"name": "Profile image Update stage",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					},
+					{
+						"key": "X-Requested-With",
+						"value": "XMLHttpRequest",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "storeId",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "customerToken",
+							"value": "1ytosfoonrc3n91v2yp24n08jfkrp635",
+							"type": "text"
+						},
+						{
+							"key": "logo_pic",
+							"type": "file",
+							"src": "/C:/Users/Admin/Downloads/mycom_logo2.png"
+						}
+					]
+				},
+				"url": "https://stage.afritia.com/afritiaapp/marketplace/profileImage"
+			},
+			"response": []
+		},
+		{
+			"name": "User notification Copy",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					},
+					{
+						"key": "X-Requested-With",
+						"value": "XMLHttpRequest",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "storeId",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "customerToken",
+							"value": "ns58c1hmdjzckyq7uucyo7uoquweojs5",
+							"type": "text"
+						},
+						{
+							"key": "customerToken",
+							"value": "k1zsoq7vm04m75m3vcu9flgutiuwp990",
+							"type": "text",
+							"disabled": true
+						}
+					]
+				},
+				"url": "https://devtest.afritia.com/afritiaapp/customer/usernotification"
+			},
+			"response": []
+		},
+		{
+			"name": "User Profile Image show",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					},
+					{
+						"key": "X-Requested-With",
+						"value": "XMLHttpRequest",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "storeId",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "customerToken",
+							"value": "ns58c1hmdjzckyq7uucyo7uoquweojs5",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "customerToken",
+							"value": "k1zsoq7vm04m75m3vcu9flgutiuwp990",
+							"type": "text"
+						}
+					]
+				},
+				"url": "https://devtest.afritia.com/afritiaapp/customer/userprofileimage"
+			},
+			"response": []
+		},
+		{
+			"name": "Profile Form Data",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "storeId",
+							"value": "1",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "customerToken",
+							"value": "yjzkfyumni33nfhc8224qk9mgkv5lxrg",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "customerToken",
+							"value": "exoc6e082g0m1f75fiakgo1ys763diex",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "storeId",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "customerToken",
+							"value": "2juojz20ahj0bqztgro34b8793313bw6",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "customerToken",
+							"value": "exoc6e082g0m1f75fiakgo1ys763diex",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "customerToken",
+							"value": "k1zsoq7vm04m75m3vcu9flgutiuwp990",
+							"type": "text"
+						},
+						{
+							"key": "sellerId",
+							"value": "515",
+							"type": "text",
+							"disabled": true
+						}
+					]
+				},
+				"url": "https://devtest.afritia.com/mobilempapp/marketplace/ProfileFormData"
+			},
+			"response": []
+		},
+		{
+			"name": "Profile Form Data stage",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "storeId",
+							"value": "1",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "customerToken",
+							"value": "yjzkfyumni33nfhc8224qk9mgkv5lxrg",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "customerToken",
+							"value": "exoc6e082g0m1f75fiakgo1ys763diex",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "storeId",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "customerToken",
+							"value": "2juojz20ahj0bqztgro34b8793313bw6",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "customerToken",
+							"value": "exoc6e082g0m1f75fiakgo1ys763diex",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "customerToken",
+							"value": "k1zsoq7vm04m75m3vcu9flgutiuwp990",
+							"type": "text"
+						},
+						{
+							"key": "sellerId",
+							"value": "515",
+							"type": "text",
+							"disabled": true
+						}
+					]
+				},
+				"url": "https://devtest.afritia.com/mobilempapp/marketplace/ProfileFormData"
+			},
+			"response": []
+		},
+		{
+			"name": "NewFormData",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "storeId",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "customerToken",
+							"value": "ns58c1hmdjzckyq7uucyo7uoquweojs5",
+							"type": "text"
+						},
+						{
+							"key": "productId",
+							"value": "837",
+							"type": "text"
+						},
+						{
+							"key": "",
+							"value": "",
+							"type": "text",
+							"disabled": true
+						}
+					]
+				},
+				"url": "https://devtest.afritia.com/mobilempapp/product/NewFormData"
+			},
+			"response": []
+		},
+		{
+			"name": "configurableattribute",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					},
+					{
+						"key": "X-Requested-With",
+						"value": "XMLHttpRequest",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "storeId",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "customerToken",
+							"value": "ns58c1hmdjzckyq7uucyo7uoquweojs5",
+							"type": "text"
+						},
+						{
+							"key": "productId",
+							"value": "837",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "",
+							"value": "",
+							"type": "text",
+							"disabled": true
+						}
+					]
+				},
+				"url": "https://devtest.afritia.com/afritiaapp/product/ConfigurableAttribute"
+			},
+			"response": []
+		},
+		{
+			"name": "SaveAttributeoption",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					},
+					{
+						"key": "X-Requested-With",
+						"value": "XMLHttpRequest",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "storeId",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "customerToken",
+							"value": "ns58c1hmdjzckyq7uucyo7uoquweojs5",
+							"type": "text"
+						},
+						{
+							"key": "attributeId",
+							"value": "135",
+							"type": "text"
+						},
+						{
+							"key": "value",
+							"value": "Fendis",
+							"type": "text"
+						}
+					]
+				},
+				"url": "https://devtest.afritia.com/afritiaapp/product/SaveAttributeOption"
+			},
+			"response": []
+		},
+		{
+			"name": "SaveAttributeoption Copy",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					},
+					{
+						"key": "X-Requested-With",
+						"value": "XMLHttpRequest",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "storeId",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "customerToken",
+							"value": "ns58c1hmdjzckyq7uucyo7uoquweojs5",
+							"type": "text"
+						},
+						{
+							"key": "attributeId",
+							"value": "135",
+							"type": "text"
+						},
+						{
+							"key": "value",
+							"value": "Fendis",
+							"type": "text"
+						}
+					]
+				},
+				"url": "https://devtest.afritia.com/afritiaapp/product/SaveAttributeOption"
+			},
+			"response": []
+		},
+		{
+			"name": "Summary list",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					},
+					{
+						"key": "X-Requested-With",
+						"value": "XMLHttpRequest",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "storeId",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "customerToken",
+							"value": "ns58c1hmdjzckyq7uucyo7uoquweojs5",
+							"type": "text"
+						},
+						{
+							"key": "attributes",
+							"value": "{\"data\":[\n  {\n    \"attribute_code\": \"color\",\n    \"options\":[\"21\", \"24\"]\n  },\n  {\n    \"attribute_code\": \"size\",\n    \"options\":[\"31\", \"32\"] \n  }\n]}",
+							"type": "text"
+						},
+						{
+							"key": "bulkoption",
+							"value": "{\"price\":\"each\",\"price_value\":{\"size\":{\"31\":\"12\",\"32\":\"15\"}},\"quantity\":\"each\",\"quantity_value\":{\"size\":{\"31\":\"100\",\"32\":\"5\"}}}",
+							"type": "text"
+						},
+						{
+							"key": "product_name",
+							"value": "Test Product",
+							"type": "text"
+						},
+						{
+							"key": "gallery",
+							"value": "{\"image\":\"each\",\"image_value\":{\"size\":{\"31\":[\"image1.jpg\",\"image2.jpg\"],\"32\":[\"image3.jpg\"]}}}",
+							"type": "text"
+						}
+					]
+				},
+				"url": "https://devtest.afritia.com/afritiaapp/product/SummaryList"
+			},
+			"response": []
+		},
+		{
+			"name": "Customer Deactivated",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					},
+					{
+						"key": "X-Requested-With",
+						"value": "XMLHttpRequest",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "storeId",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "customerToken",
+							"value": "ns58c1hmdjzckyq7uucyo7uoquweojs5",
+							"type": "text"
+						},
+						{
+							"key": "customerDeactiveReason",
+							"value": "Too many Ads",
+							"type": "text"
+						}
+					]
+				},
+				"url": "https://devtest.afritia.com/afritiaapp/marketplace/CustomerDeactivated"
+			},
+			"response": []
+		},
+		{
+			"name": "Seller Deactivated",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					},
+					{
+						"key": "X-Requested-With",
+						"value": "XMLHttpRequest",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "storeId",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "customerToken",
+							"value": "ns58c1hmdjzckyq7uucyo7uoquweojs5",
+							"type": "text"
+						},
+						{
+							"key": "customerDeactiveReason",
+							"value": "Too many Ads",
+							"type": "text"
+						}
+					]
+				},
+				"url": "https://devtest.afritia.com/afritiaapp/marketplace/CustomerDeactivated"
+			},
+			"response": []
+		},
+		{
+			"name": "customerdelete",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					},
+					{
+						"key": "X-Requested-With",
+						"value": "XMLHttpRequest",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "storeId",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "customerToken",
+							"value": "ns58c1hmdjzckyq7uucyo7uoquweojs5",
+							"type": "text"
+						},
+						{
+							"key": "customerDeactiveReason",
+							"value": "Too many Ads",
+							"type": "text",
+							"disabled": true
+						}
+					]
+				},
+				"url": "https://devtest.afritia.com/afritiaapp/marketplace/CustomerDelete"
+			},
+			"response": []
+		},
+		{
+			"name": "Account info",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					},
+					{
+						"key": "X-Requested-With",
+						"value": "XMLHttpRequest",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "storeId",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "customerToken",
+							"value": "ns58c1hmdjzckyq7uucyo7uoquweojs5",
+							"type": "text"
+						},
+						{
+							"key": "customerDeactiveReason",
+							"value": "3",
+							"type": "text"
+						},
+						{
+							"key": "customerActiveOrDeactive",
+							"value": "0",
+							"type": "text"
+						}
+					]
+				},
+				"url": "https://devtest.afritia.com/afritiaapp/marketplace/CustomerDeactivated"
+			},
+			"response": []
+		},
+		{
+			"name": "Account info Copy",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					},
+					{
+						"key": "X-Requested-With",
+						"value": "XMLHttpRequest",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "storeId",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "customerToken",
+							"value": "ns58c1hmdjzckyq7uucyo7uoquweojs5",
+							"type": "text"
+						},
+						{
+							"key": "customerDeactiveReason",
+							"value": "3",
+							"type": "text"
+						},
+						{
+							"key": "customerActiveOrDeactive",
+							"value": "0",
+							"type": "text"
+						}
+					]
+				},
+				"url": "https://devtest.afritia.com/afritiaapp/marketplace/CustomerDeactivated"
+			},
+			"response": []
+		},
+		{
+			"name": "Account info Data",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					},
+					{
+						"key": "X-Requested-With",
+						"value": "XMLHttpRequest",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "storeId",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "customerToken",
+							"value": "q2vna5qzi8im0o1f5i2e3j1xgnvtrnbk",
+							"type": "text"
+						},
+						{
+							"key": "customerDeactiveReason",
+							"value": "3",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "customerActiveOrDeactive",
+							"value": "0",
+							"type": "text",
+							"disabled": true
+						}
+					]
+				},
+				"url": "https://devtest.afritia.com/mobileapp/customer/accountinfoData"
+			},
+			"response": []
+		},
+		{
+			"name": "Save Address",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					},
+					{
+						"key": "X-Requested-With",
+						"value": "XMLHttpRequest",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "storeId",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "customerToken",
+							"value": "ns58c1hmdjzckyq7uucyo7uoquweojs5",
+							"type": "text"
+						},
+						{
+							"key": "addressData",
+							"value": "{\"prefix\":\"\",\"firstName\":\"test\",\"middleName\":\"\",\"lastName\":\"&nbsp\",\"suffix\":\"\",\"company\":\"\",\"block\":\"czvcz\",\"building\":\"xcvczx\",\"house_no\":\"vV\",\"choose_area\":\"Faiha\",\"jadda_extra_directions\":\"vZV\",\"telephone\":\"52623\",\"fax\":\"\",\"street\":[\"vxccv\",\"xcvczx\",\"vV\"],\"city\":\"czvcz\",\"region_id\":0,\"region\":\"Faiha\",\"postcode\":\"vZV\",\"country_id\":\"KW\",\"default_billing\":\"0\",\"default_shipping\":\"0\",\"saveInAddressBook\":\"0\"}",
+							"type": "text"
+						},
+						{
+							"key": "customerActiveOrDeactive",
+							"value": "0",
+							"type": "text",
+							"disabled": true
+						}
+					]
+				},
+				"url": "https://devtest.afritia.com/mobileapp/customer/saveAddress"
+			},
+			"response": []
+		},
+		{
+			"name": "Login",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					},
+					{
+						"key": "X-Requested-With",
+						"value": "XMLHttpRequest",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "storeId",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "username",
+							"value": "dawodus@yahoo.com",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "Anderson01@",
+							"type": "text"
+						}
+					]
+				},
+				"url": "https://stage.afritia.com/mobileapp/customer/logIn"
+			},
+			"response": []
+		},
+		{
+			"name": "SellerProfile",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					},
+					{
+						"key": "X-Requested-With",
+						"value": "XMLHttpRequest",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "storeId",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "username",
+							"value": "dawodus@yahoo.com",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "Anderson01@",
+							"type": "text"
+						}
+					]
+				},
+				"url": "https://stage.afritia.com/mobileapp/customer/logIn"
+			},
+			"response": []
+		},
+		{
+			"name": "Seller Status",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					},
+					{
+						"key": "X-Requested-With",
+						"value": "XMLHttpRequest",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "storeId",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "username",
+							"value": "dawodus@yahoo.com",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "Anderson01@",
+							"type": "text"
+						}
+					]
+				},
+				"url": "https://stage.afritia.com/mobileapp/customer/logIn"
+			},
+			"response": []
+		},
+		{
+			"name": "save Account info",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					},
+					{
+						"key": "X-Requested-With",
+						"value": "XMLHttpRequest",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "storeId",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "customerToken",
+							"value": "q2vna5qzi8im0o1f5i2e3j1xgnvtrnbk",
+							"type": "text"
+						},
+						{
+							"key": "prefix",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "firstName",
+							"value": "Test123",
+							"type": "text"
+						},
+						{
+							"key": "middleName",
+							"value": "Test123",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "lastName",
+							"value": "Test123",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "dawodus@yahoo.com",
+							"type": "text"
+						},
+						{
+							"key": "dob",
+							"value": "2023-08-21",
+							"type": "text"
+						},
+						{
+							"key": "taxvat",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "suffix",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "gender",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "doChangeEmail",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "doChangePassword",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "currentPassword",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "newPassword",
+							"value": "",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "confirmPassword",
+							"value": "",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "mobile",
+							"value": "9044567789",
+							"type": "text"
+						},
+						{
+							"key": "country",
+							"value": "",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "country_code",
+							"value": "",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "tfa_value",
+							"value": "",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "question",
+							"value": "What city were you born in?",
+							"type": "text"
+						},
+						{
+							"key": "answer",
+							"value": "Ahmedabad",
+							"type": "text"
+						},
+						{
+							"key": "current_question_answer",
+							"value": "Ahmedabad",
+							"type": "text"
+						}
+					]
+				},
+				"url": "https://devtest.afritia.com/mobileapp/customer/saveAccountInfo"
+			},
+			"response": []
+		},
+		{
+			"name": "CustomerRewardPoint",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					},
+					{
+						"key": "X-Requested-With",
+						"value": "XMLHttpRequest",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "storeId",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "customerToken",
+							"value": "q2vna5qzi8im0o1f5i2e3j1xgnvtrnbk",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "Anderson01@",
+							"type": "text",
+							"disabled": true
+						}
+					]
+				},
+				"url": "https://devtest.afritia.com/afritiaapp/customer/CustomerRewardPoints"
+			},
+			"response": []
+		},
+		{
+			"name": "CustomerReferral",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					},
+					{
+						"key": "X-Requested-With",
+						"value": "XMLHttpRequest",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "storeId",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "customerToken",
+							"value": "q2vna5qzi8im0o1f5i2e3j1xgnvtrnbk",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "Anderson01@",
+							"type": "text",
+							"disabled": true
+						}
+					]
+				},
+				"url": "https://devtest.afritia.com/afritiaapp/customer/CustomerRewardPoints"
+			},
+			"response": []
+		},
+		{
+			"name": "AccountInfodata",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					},
+					{
+						"key": "X-Requested-With",
+						"value": "XMLHttpRequest",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "storeId",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "customerToken",
+							"value": "q2vna5qzi8im0o1f5i2e3j1xgnvtrnbk",
+							"type": "text"
+						},
+						{
+							"key": "prefix",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "firstName",
+							"value": "Test123",
+							"type": "text"
+						},
+						{
+							"key": "middleName",
+							"value": "Test123",
+							"type": "text"
+						},
+						{
+							"key": "lastName",
+							"value": "Test123",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "dob",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "taxvat",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "suffix",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "gender",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "doChangeEmail",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "doChangePassword",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "currentPassword",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "newPassword",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "confirmPassword",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "mobile",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "country",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "country_code",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "tfa_value",
+							"value": "",
+							"type": "text"
+						}
+					]
+				},
+				"url": "https://devtest.afritia.com/mobileapp/customer/saveAccountInfo"
+			},
+			"response": []
+		},
+		{
+			"name": "Summary list Satge",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					},
+					{
+						"key": "X-Requested-With",
+						"value": "XMLHttpRequest",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "storeId",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "customerToken",
+							"value": "ns58c1hmdjzckyq7uucyo7uoquweojs5",
+							"type": "text"
+						},
+						{
+							"key": "attributes",
+							"value": "{\"data\":[\n  {\n    \"attribute_code\": \"color\",\n    \"options\":[\"21\", \"24\"]\n  },\n  {\n    \"attribute_code\": \"size\",\n    \"options\":[\"31\", \"32\"] \n  }\n]}",
+							"type": "text"
+						},
+						{
+							"key": "bulkoption",
+							"value": "{\"price\":\"each\",\"price_value\":{\"size\":{\"31\":\"12\",\"32\":\"15\"}},\"quantity\":\"each\",\"quantity_value\":{\"size\":{\"31\":\"100\",\"32\":\"5\"}}}",
+							"type": "text"
+						},
+						{
+							"key": "product_name",
+							"value": "Test Product",
+							"type": "text"
+						},
+						{
+							"key": "gallery",
+							"value": "{\"image\":\"each\",\"image_value\":{\"size\":{\"31\":[\"image1.jpg\",\"image2.jpg\"],\"32\":[\"image3.jpg\"]}}}",
+							"type": "text"
+						}
+					]
+				},
+				"url": "https://stage.afritia.com/afritiaapp/product/SummaryList"
+			},
+			"response": []
+		},
+		{
+			"name": "Save configurable product",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					},
+					{
+						"key": "X-Requested-With",
+						"value": "XMLHttpRequest",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "storeId",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "customerToken",
+							"value": "ns58c1hmdjzckyq7uucyo7uoquweojs5",
+							"type": "text"
+						},
+						{
+							"key": "configurableProducts",
+							"value": "{\"configurableProducts\": [\n        {\n            \"images\": \"https://devtest.afritia.com/pub/media/tmp/catalog/product/g/r/gray_one.jpg\",\n            \"sku\": \"Shirt Product-Gray-L\",\n            \"name\": \"Shirt Product-Gray-L\",\n            \"quantity\": \"100\",\n            \"price\": \"12\",\n            \"attributes\": {\n                \"color\": \"Gray\",\n                \"size\": \"L\"\n            }\n        },\n        {\n            \"images\": \"https://devtest.afritia.com/pub/media/tmp/catalog/product/g/r/gray_one.jpg\",\n            \"sku\": \"Shirt Product-Gray-M\",\n            \"name\": \"Shirt Product-Gray-M\",\n            \"quantity\": \"5\",\n            \"price\": \"15\",\n            \"attributes\": {\n                \"color\": \"Gray\",\n                \"size\": \"M\"\n            }\n        },\n        {\n            \"images\": \"https://devtest.afritia.com/pub/media/tmp/catalog/product/g/r/gray_one.jpg\",\n            \"sku\": \"Shirt Product-Blue-L\",\n            \"name\": \"Shirt Product-Blue-L\",\n            \"quantity\": \"100\",\n            \"price\": \"12\",\n            \"attributes\": {\n                \"color\": \"Blue\",\n                \"size\": \"L\"\n            }\n        },\n        {\n            \"images\": \"https://devtest.afritia.com/pub/media/tmp/catalog/product/g/r/gray_one.jpg\",\n            \"sku\": \"Shirt Product-Blue-M\",\n            \"name\": \"Shirt Product-Blue-M\",\n            \"quantity\": \"5\",\n            \"price\": \"15\",\n            \"attributes\": {\n                \"color\": \"Blue\",\n                \"size\": \"M\"\n            }\n        }\n    ]\n    }",
+							"type": "text"
+						},
+						{
+							"key": "name",
+							"value": "Shirt Product Latest",
+							"type": "text"
+						},
+						{
+							"key": "configurable_weight",
+							"value": "5",
+							"type": "text"
+						},
+						{
+							"key": "price",
+							"value": "0",
+							"type": "text"
+						},
+						{
+							"key": "visibility",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "taxClassId",
+							"value": "0",
+							"type": "text"
+						},
+						{
+							"key": "categoryIds",
+							"value": "{\"cat\":[2,3]}",
+							"type": "text"
+						},
+						{
+							"key": "websiteIds",
+							"value": "{\"webid\":[1]}",
+							"type": "text"
+						},
+						{
+							"key": "attributeSetId",
+							"value": "4",
+							"type": "text"
+						},
+						{
+							"key": "configurableGallery",
+							"value": "{\"images\": \"https://devtest.afritia.com/pub/media/tmp/catalog/product/b/l/black_one.png,https://devtest.afritia.com/pub/media/tmp/catalog/product/b/l/black_two.png\"}",
+							"type": "text"
+						},
+						{
+							"key": "specialPrice",
+							"value": "10",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "specialFromDate",
+							"value": "",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "specialToDate",
+							"value": "",
+							"type": "text",
+							"disabled": true
+						}
+					]
+				},
+				"url": "https://devtest.afritia.com/afritiaapp/product/SaveConfigurableProduct"
+			},
+			"response": []
+		},
+		{
+			"name": "Save configurable product stage",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					},
+					{
+						"key": "X-Requested-With",
+						"value": "XMLHttpRequest",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "storeId",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "customerToken",
+							"value": "ns58c1hmdjzckyq7uucyo7uoquweojs5",
+							"type": "text"
+						},
+						{
+							"key": "configurableProducts",
+							"value": "{\"configurableProducts\": [\n        {\n            \"images\": \"https://stage.afritia.com/pub/media/tmp/catalog/product/g/r/gray_one.jpg\",\n            \"sku\": \"Shirt Product-Gray-L\",\n            \"name\": \"Shirt Product-Gray-L\",\n            \"quantity\": \"100\",\n            \"price\": \"12\",\n            \"weight\":\"10\",\n            \"attributes\": {\n                \"color\": \"Gray\",\n                \"size\": \"L\"\n            }\n        },\n        {\n            \"images\": \"https://stage.afritia.com/pub/media/tmp/catalog/product/g/r/gray_one.jpg\",\n            \"sku\": \"Shirt Product-Gray-M\",\n            \"name\": \"Shirt Product-Gray-M\",\n            \"quantity\": \"5\",\n            \"price\": \"15\",\n            \"weight\":\"10\",\n            \"attributes\": {\n                \"color\": \"Gray\",\n                \"size\": \"M\"\n            }\n        },\n        {\n            \"images\": \"https://stage.afritia.com/pub/media/tmp/catalog/product/g/r/gray_one.jpg\",\n            \"sku\": \"Shirt Product-Blue-L\",\n            \"name\": \"Shirt Product-Blue-L\",\n            \"quantity\": \"100\",\n            \"price\": \"12\",\n            \"weight\":\"10\",\n            \"attributes\": {\n                \"color\": \"Blue\",\n                \"size\": \"L\"\n            }\n        },\n        {\n            \"images\": \"https://stage.afritia.com/pub/media/tmp/catalog/product/g/r/gray_one.jpg\",\n            \"sku\": \"Shirt Product-Blue-M\",\n            \"name\": \"Shirt Product-Blue-M\",\n            \"quantity\": \"5\",\n            \"price\": \"15\",\n            \"weight\":\"10\",\n            \"attributes\": {\n                \"color\": \"Blue\",\n                \"size\": \"M\"\n            }\n        }\n    ]\n    }",
+							"type": "text"
+						},
+						{
+							"key": "name",
+							"value": "Shirt Product Latest",
+							"type": "text"
+						},
+						{
+							"key": "configurable_weight",
+							"value": "5",
+							"type": "text"
+						},
+						{
+							"key": "price",
+							"value": "0",
+							"type": "text"
+						},
+						{
+							"key": "visibility",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "taxClassId",
+							"value": "0",
+							"type": "text"
+						},
+						{
+							"key": "categoryIds",
+							"value": "{\"cat\":[2]}",
+							"type": "text"
+						},
+						{
+							"key": "websiteIds",
+							"value": "{\"webid\":[1]}",
+							"type": "text"
+						},
+						{
+							"key": "attributeSetId",
+							"value": "4",
+							"type": "text"
+						},
+						{
+							"key": "configurableGallery",
+							"value": "{\"images\": \"https://stage.afritia.com/pub/media/tmp/catalog/product/b/l/black_one.png,https://stage.afritia.com/pub/media/tmp/catalog/product/b/l/black_two.png\"}",
+							"type": "text"
+						},
+						{
+							"key": "specialPrice",
+							"value": "10",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "specialFromDate",
+							"value": "",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "specialToDate",
+							"value": "",
+							"type": "text",
+							"disabled": true
+						}
+					]
+				},
+				"url": "https://stage.afritia.com/afritiaapp/product/SaveConfigurableProduct"
+			},
+			"response": []
+		},
+		{
+			"name": "Upload image",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					},
+					{
+						"key": "X-Requested-With",
+						"value": "XMLHttpRequest",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "storeId",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "customerToken",
+							"value": "ns58c1hmdjzckyq7uucyo7uoquweojs5",
+							"type": "text"
+						},
+						{
+							"key": "images[]",
+							"type": "file",
+							"src": [
+								"ywqySk0FU/1672739600516.jpg",
+								"ywqySk0FU/1672739600525.jpg"
+							]
+						}
+					]
+				},
+				"url": "https://stage.afritia.com/afritiaapp/product/Uploadimage"
+			},
+			"response": []
+		},
+		{
+			"name": "Sellerearning",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					},
+					{
+						"key": "X-Requested-With",
+						"value": "XMLHttpRequest",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "storeId",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "customerToken",
+							"value": "q2vna5qzi8im0o1f5i2e3j1xgnvtrnbk",
+							"type": "text"
+						},
+						{
+							"key": "attributes",
+							"value": "{\"color\":\"Gray\"}",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "",
+							"value": "",
+							"type": "text",
+							"disabled": true
+						}
+					]
+				},
+				"url": "https://devtest.afritia.com/afritiaapp/marketplace/SellerEarning"
+			},
+			"response": []
+		},
+		{
+			"name": "configurableattribute Stage",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "storeId",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "customerToken",
+							"value": "ns58c1hmdjzckyq7uucyo7uoquweojs5",
+							"type": "text"
+						},
+						{
+							"key": "productId",
+							"value": "837",
+							"type": "text"
+						},
+						{
+							"key": "",
+							"value": "",
+							"type": "text",
+							"disabled": true
+						}
+					]
+				},
+				"url": "https://devtest.afritia.com/mobilempapp/product/NewFormData"
+			},
+			"response": []
+		},
+		{
+			"name": "SaveProduct Dev",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "storeId",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "customerToken",
+							"value": "ns58c1hmdjzckyq7uucyo7uoquweojs5",
+							"type": "text"
+						},
+						{
+							"key": "productId",
+							"value": "837",
+							"type": "text"
+						},
+						{
+							"key": "othew",
+							"value": "['pric':10,]",
+							"type": "text"
+						}
+					]
+				},
+				"url": "https://devtest.afritia.com/mobilempapp/product/SaveProduct"
+			},
+			"response": []
+		},
+		{
+			"name": "NewFormData Stage",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					},
+					{
+						"key": "X-Requested-With",
+						"value": "XMLHttpRequest",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "storeId",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "customerToken",
+							"value": "9ousmefb3s450wgdyu3b54dxj0c1ofwy",
+							"type": "text"
+						},
+						{
+							"key": "productId",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "",
+							"value": "",
+							"type": "text",
+							"disabled": true
+						}
+					]
+				},
+				"url": "https://stage.afritia.com/mobilempapp/product/NewFormData"
+			},
+			"response": []
+		},
+		{
+			"name": "CategoryData",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					},
+					{
+						"key": "X-Requested-With",
+						"value": "XMLHttpRequest",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "storeId",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "customerToken",
+							"value": "ns58c1hmdjzckyq7uucyo7uoquweojs5",
+							"type": "text"
+						},
+						{
+							"key": "productId",
+							"value": "837",
+							"type": "text"
+						},
+						{
+							"key": "categoryId",
+							"value": "175",
+							"type": "text"
+						},
+						{
+							"key": "type",
+							"value": "simple",
+							"type": "text",
+							"disabled": true
+						}
+					]
+				},
+				"url": "https://devtest.afritia.com/afritiaapp/product/CategoryData"
+			},
+			"response": []
+		},
+		{
+			"name": "CategoryData Copy",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "storeId",
+							"value": "1",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "customerToken",
+							"value": "yjzkfyumni33nfhc8224qk9mgkv5lxrg",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "customerToken",
+							"value": "exoc6e082g0m1f75fiakgo1ys763diex",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "storeId",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "customerToken",
+							"value": "2juojz20ahj0bqztgro34b8793313bw6",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "customerToken",
+							"value": "exoc6e082g0m1f75fiakgo1ys763diex",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "customerToken",
+							"value": "k1zsoq7vm04m75m3vcu9flgutiuwp990",
+							"type": "text"
+						},
+						{
+							"key": "sellerId",
+							"value": "515",
+							"type": "text",
+							"disabled": true
+						}
+					]
+				},
+				"url": "https://devtest.afritia.com/mobilempapp/marketplace/ProfileFormData"
+			},
+			"response": []
+		},
+		{
+			"name": "CategoryData dev",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					},
+					{
+						"key": "X-Requested-With",
+						"value": "XMLHttpRequest",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "storeId",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "customerToken",
+							"value": "ns58c1hmdjzckyq7uucyo7uoquweojs5",
+							"type": "text"
+						},
+						{
+							"key": "categoryId",
+							"value": "175",
+							"type": "text"
+						},
+						{
+							"key": "product_type",
+							"value": "simple",
+							"type": "text"
+						}
+					]
+				},
+				"url": "https://devtest.afritia.com/afritiaapp/product/CategoryData"
+			},
+			"response": []
+		},
+		{
+			"name": "SellerDeactivated",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					},
+					{
+						"key": "X-Requested-With",
+						"value": "XMLHttpRequest",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "storeId",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "customerToken",
+							"value": "ns58c1hmdjzckyq7uucyo7uoquweojs5",
+							"type": "text"
+						},
+						{
+							"key": "categoryId",
+							"value": "175",
+							"type": "text"
+						},
+						{
+							"key": "product_type",
+							"value": "simple",
+							"type": "text"
+						}
+					]
+				},
+				"url": "https://devtest.afritia.com/afritiaapp/product/CategoryData"
+			},
+			"response": []
+		},
+		{
+			"name": "Sellerearning",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					},
+					{
+						"key": "X-Requested-With",
+						"value": "XMLHttpRequest",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "storeId",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "customerToken",
+							"value": "ns58c1hmdjzckyq7uucyo7uoquweojs5",
+							"type": "text"
+						},
+						{
+							"key": "categoryId",
+							"value": "175",
+							"type": "text"
+						},
+						{
+							"key": "product_type",
+							"value": "simple",
+							"type": "text"
+						}
+					]
+				},
+				"url": "https://devtest.afritia.com/afritiaapp/product/CategoryData"
+			},
+			"response": []
+		},
+		{
+			"name": "CategoryData dev Copy",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "storeId",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "customerToken",
+							"value": "ns58c1hmdjzckyq7uucyo7uoquweojs5",
+							"type": "text"
+						},
+						{
+							"key": "categoryId",
+							"value": "175",
+							"type": "text"
+						},
+						{
+							"key": "product_type",
+							"value": "simple",
+							"type": "text"
+						}
+					]
+				},
+				"url": "https://devtest.afritia.com/afritiaapp/product/CategoryData"
+			},
+			"response": []
+		},
+		{
+			"name": "CategoryData stage",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					},
+					{
+						"key": "X-Requested-With",
+						"value": "XMLHttpRequest",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "storeId",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "customerToken",
+							"value": "9ousmefb3s450wgdyu3b54dxj0c1ofwy",
+							"type": "text"
+						},
+						{
+							"key": "categoryId",
+							"value": "175",
+							"type": "text"
+						},
+						{
+							"key": "product_type",
+							"value": "simple",
+							"type": "text"
+						}
+					]
+				},
+				"url": "https://stage.afritia.com/afritiaapp/Product/CategoryData"
+			},
+			"response": []
+		},
+		{
+			"name": "User Profile Image show Stage",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					},
+					{
+						"key": "X-Requested-With",
+						"value": "XMLHttpRequest",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "storeId",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "customerToken",
+							"value": "1ytosfoonrc3n91v2yp24n08jfkrp635",
+							"type": "text"
+						},
+						{
+							"key": "customerToken",
+							"value": "k1zsoq7vm04m75m3vcu9flgutiuwp990",
+							"type": "text",
+							"disabled": true
+						}
+					]
+				},
+				"url": "https://stage.afritia.com/afritiaapp/customer/userprofileimage"
+			},
+			"response": []
+		},
+		{
+			"name": "User notification",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					},
+					{
+						"key": "X-Requested-With",
+						"value": "XMLHttpRequest",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "storeId",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "customerToken",
+							"value": "9ousmefb3s450wgdyu3b54dxj0c1ofwy",
+							"description": "stage",
+							"type": "text"
+						},
+						{
+							"key": "customerToken",
+							"value": "j0v946x65o6it1q6qjrmi0ogynmga16y",
+							"description": "live",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "user_type",
+							"value": "customer",
+							"type": "text"
+						}
+					]
+				},
+				"url": "https://stage.afritia.com/afritiaapp/customer/usernotification"
+			},
+			"response": []
+		},
+		{
+			"name": "User notification Read",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					},
+					{
+						"key": "X-Requested-With",
+						"value": "XMLHttpRequest",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "storeId",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "customerToken",
+							"value": "ns58c1hmdjzckyq7uucyo7uoquweojs5",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "customerToken",
+							"value": "k1zsoq7vm04m75m3vcu9flgutiuwp990",
+							"type": "text"
+						},
+						{
+							"key": "notificationId",
+							"value": "1",
+							"type": "text"
+						}
+					]
+				},
+				"url": "https://devtest.afritia.com/afritiaapp/customer/notificationread"
+			},
+			"response": []
+		},
+		{
+			"name": "User notification Read Stage",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					},
+					{
+						"key": "X-Requested-With",
+						"value": "XMLHttpRequest",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "storeId",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "customerToken",
+							"value": "ns58c1hmdjzckyq7uucyo7uoquweojs5",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "customerToken",
+							"value": "1ytosfoonrc3n91v2yp24n08jfkrp635",
+							"type": "text"
+						},
+						{
+							"key": "notificationId",
+							"value": "1",
+							"type": "text"
+						}
+					]
+				},
+				"url": "https://stage.afritia.com/afritiaapp/customer/notificationread"
+			},
+			"response": []
+		},
+		{
+			"name": "MP Show Questions list",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					},
+					{
+						"key": "X-Requested-With",
+						"value": "XMLHttpRequest",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "storeId",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "customerToken",
+							"value": "ns58c1hmdjzckyq7uucyo7uoquweojs5",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "customerToken",
+							"value": "k1zsoq7vm04m75m3vcu9flgutiuwp990",
+							"type": "text"
+						},
+						{
+							"key": "notificationId",
+							"value": "1",
+							"type": "text",
+							"disabled": true
+						}
+					]
+				},
+				"url": "https://devtest.afritia.com/afritiaapp/customer/mpshowquestions"
+			},
+			"response": []
+		},
+		{
+			"name": "MP Seller Dashboard",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					},
+					{
+						"key": "X-Requested-With",
+						"value": "XMLHttpRequest",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "storeId",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "customerToken",
+							"value": "ns58c1hmdjzckyq7uucyo7uoquweojs5",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "customerToken",
+							"value": "9ousmefb3s450wgdyu3b54dxj0c1ofwy",
+							"type": "text"
+						},
+						{
+							"key": "notificationId",
+							"value": "1",
+							"type": "text",
+							"disabled": true
+						}
+					]
+				},
+				"url": "https://stage.afritia.com/mobilempapp/marketplace/dashboard"
+			},
+			"response": []
+		},
+		{
+			"name": "MP Seller Dashboard Copy",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					},
+					{
+						"key": "X-Requested-With",
+						"value": "XMLHttpRequest",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "storeId",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "customerToken",
+							"value": "ns58c1hmdjzckyq7uucyo7uoquweojs5",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "customerToken",
+							"value": "9ousmefb3s450wgdyu3b54dxj0c1ofwy",
+							"type": "text"
+						},
+						{
+							"key": "notificationId",
+							"value": "1",
+							"type": "text",
+							"disabled": true
+						}
+					]
+				},
+				"url": "https://stage.afritia.com/mobilempapp/marketplace/dashboard"
+			},
+			"response": []
+		},
+		{
+			"name": "MP Add answers list",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					},
+					{
+						"key": "X-Requested-With",
+						"value": "XMLHttpRequest",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "storeId",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "customerToken",
+							"value": "ns58c1hmdjzckyq7uucyo7uoquweojs5",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "customerToken",
+							"value": "k1zsoq7vm04m75m3vcu9flgutiuwp990",
+							"type": "text"
+						},
+						{
+							"key": "question_id",
+							"value": "11",
+							"type": "text"
+						},
+						{
+							"key": "respond_nickname",
+							"value": "testnew",
+							"type": "text"
+						},
+						{
+							"key": "respond_type",
+							"value": "Customer",
+							"type": "text"
+						},
+						{
+							"key": "content",
+							"value": "this product is low price and good quality.",
+							"type": "text"
+						}
+					]
+				},
+				"url": "https://devtest.afritia.com/afritiaapp/customer/mpaddanswers"
+			},
+			"response": []
+		},
+		{
+			"name": "MP Add answers Stage",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					},
+					{
+						"key": "X-Requested-With",
+						"value": "XMLHttpRequest",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "storeId",
+							"value": "1",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "customerToken",
+							"value": "1ytosfoonrc3n91v2yp24n08jfkrp635",
+							"type": "text"
+						},
+						{
+							"key": "customerToken",
+							"value": "k1zsoq7vm04m75m3vcu9flgutiuwp990",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "question_id",
+							"value": "34",
+							"type": "text"
+						},
+						{
+							"key": "respond_nickname",
+							"value": "Selleruser",
+							"type": "text"
+						},
+						{
+							"key": "respond_type",
+							"value": "Seller",
+							"type": "text"
+						},
+						{
+							"key": "content",
+							"value": "yes we are working on that",
+							"type": "text"
+						}
+					]
+				},
+				"url": "https://stage.afritia.com/afritiaapp/customer/mpaddanswers"
+			},
+			"response": []
+		},
+		{
+			"name": "MP Show answers list",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					},
+					{
+						"key": "X-Requested-With",
+						"value": "XMLHttpRequest",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "storeId",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "customerToken",
+							"value": "ns58c1hmdjzckyq7uucyo7uoquweojs5",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "customerToken",
+							"value": "k1zsoq7vm04m75m3vcu9flgutiuwp990",
+							"type": "text"
+						},
+						{
+							"key": "question_id",
+							"value": "11",
+							"type": "text"
+						}
+					]
+				},
+				"url": "https://devtest.afritia.com/afritiaapp/customer/mpshowanswers"
+			},
+			"response": []
+		},
+		{
+			"name": "MP Show answers list Stage",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					},
+					{
+						"key": "X-Requested-With",
+						"value": "XMLHttpRequest",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "storeId",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "customerToken",
+							"value": "ns58c1hmdjzckyq7uucyo7uoquweojs5",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "customerToken",
+							"value": "k1zsoq7vm04m75m3vcu9flgutiuwp990",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "question_id",
+							"value": "34",
+							"type": "text"
+						},
+						{
+							"key": "customerToken",
+							"value": "1ytosfoonrc3n91v2yp24n08jfkrp635",
+							"type": "text"
+						}
+					]
+				},
+				"url": "https://stage.afritia.com/afritiaapp/customer/mpshowanswers"
+			},
+			"response": []
+		},
+		{
+			"name": "MP Show Questions list Stage",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					},
+					{
+						"key": "X-Requested-With",
+						"value": "XMLHttpRequest",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "storeId",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "customerToken",
+							"value": "1ytosfoonrc3n91v2yp24n08jfkrp635",
+							"type": "text"
+						},
+						{
+							"key": "customerToken",
+							"value": "k1zsoq7vm04m75m3vcu9flgutiuwp990",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "notificationId",
+							"value": "1",
+							"type": "text",
+							"disabled": true
+						}
+					]
+				},
+				"url": "https://stage.afritia.com/afritiaapp/customer/mpshowquestions"
+			},
+			"response": []
+		},
+		{
+			"name": "MP Show RMA list Dev",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					},
+					{
+						"key": "X-Requested-With",
+						"value": "XMLHttpRequest",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "storeId",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "customerToken",
+							"value": "ns58c1hmdjzckyq7uucyo7uoquweojs5",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "customerToken",
+							"value": "k1zsoq7vm04m75m3vcu9flgutiuwp990",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "notificationId",
+							"value": "1",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "customerToken",
+							"value": "k1zsoq7vm04m75m3vcu9flgutiuwp990",
+							"type": "text"
+						},
+						{
+							"key": "filterData",
+							"value": "{\"id\":\"11\",\"order\":\"566\",\"status\":\"3\"}",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "filterData",
+							"value": "{created_date:[\"datetime\":true,\"from\":\"2022-10-21\", \"to\":\"2022-10-30\"]}",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "dateFrom",
+							"value": "2022-10-15",
+							"type": "text"
+						},
+						{
+							"key": "dateTo",
+							"value": "2022-10-25",
+							"type": "text"
+						},
+						{
+							"key": "status",
+							"value": "3",
+							"type": "text"
+						},
+						{
+							"key": "rmaid",
+							"value": "10",
+							"type": "text"
+						},
+						{
+							"key": "customername",
+							"value": "Dev",
+							"type": "text"
+						},
+						{
+							"key": "orderid",
+							"value": "565",
+							"type": "text"
+						}
+					]
+				},
+				"url": "https://devtest.afritia.com/mobilemprma/seller/rmaList"
+			},
+			"response": []
+		},
+		{
+			"name": "MP Show RMA list stage",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					},
+					{
+						"key": "X-Requested-With",
+						"value": "XMLHttpRequest",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "storeId",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "customerToken",
+							"value": "k1zsoq7vm04m75m3vcu9flgutiuwp990",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "customerToken",
+							"value": "1ytosfoonrc3n91v2yp24n08jfkrp635",
+							"type": "text"
+						},
+						{
+							"key": "status",
+							"value": "3",
+							"type": "text"
+						},
+						{
+							"key": "dateFrom",
+							"value": "2022-10-15",
+							"type": "text"
+						},
+						{
+							"key": "dateTo",
+							"value": "2022-10-30",
+							"type": "text"
+						},
+						{
+							"key": "rmaid",
+							"value": "11",
+							"type": "text"
+						},
+						{
+							"key": "orderid",
+							"value": "544",
+							"type": "text"
+						},
+						{
+							"key": "customername",
+							"value": "Camilla",
+							"type": "text"
+						}
+					]
+				},
+				"url": "https://stage.afritia.com/mobilemprma/seller/rmaList"
+			},
+			"response": []
+		},
+		{
+			"name": "MP Seller RMA View",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					},
+					{
+						"key": "X-Requested-With",
+						"value": "XMLHttpRequest",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "storeId",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "customerToken",
+							"value": "ns58c1hmdjzckyq7uucyo7uoquweojs5",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "customerToken",
+							"value": "k1zsoq7vm04m75m3vcu9flgutiuwp990",
+							"type": "text"
+						},
+						{
+							"key": "rmaId",
+							"value": "10",
+							"type": "text"
+						}
+					]
+				},
+				"url": "https://devtest.afritia.com/mobilemprma/seller/viewrma"
+			},
+			"response": []
+		},
+		{
+			"name": "MP Seller RMA View Copy",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					},
+					{
+						"key": "X-Requested-With",
+						"value": "XMLHttpRequest",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "storeId",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "customerToken",
+							"value": "ns58c1hmdjzckyq7uucyo7uoquweojs5",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "customerToken",
+							"value": "k1zsoq7vm04m75m3vcu9flgutiuwp990",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "rmaId",
+							"value": "11",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "customerToken",
+							"value": "1ytosfoonrc3n91v2yp24n08jfkrp635",
+							"type": "text"
+						},
+						{
+							"key": "rmaId",
+							"value": "11",
+							"type": "text"
+						}
+					]
+				},
+				"url": "https://stage.afritia.com/mobilemprma/seller/viewrma"
+			},
+			"response": []
+		},
+		{
+			"name": "MP Seller RMA List",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					},
+					{
+						"key": "X-Requested-With",
+						"value": "XMLHttpRequest",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "storeId",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "customerToken",
+							"value": "ns58c1hmdjzckyq7uucyo7uoquweojs5",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "customerToken",
+							"value": "k1zsoq7vm04m75m3vcu9flgutiuwp990",
+							"type": "text"
+						}
+					]
+				},
+				"url": "https://devtest.afritia.com/mobilemprma/seller/rmalist"
+			},
+			"response": []
+		},
+		{
+			"name": "MP Seller RMA Refund",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					},
+					{
+						"key": "X-Requested-With",
+						"value": "XMLHttpRequest",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "storeId",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "customerToken",
+							"value": "ns58c1hmdjzckyq7uucyo7uoquweojs5",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "customerToken",
+							"value": "k1zsoq7vm04m75m3vcu9flgutiuwp990",
+							"type": "text"
+						},
+						{
+							"key": "rmaId",
+							"value": "10",
+							"type": "text"
+						},
+						{
+							"key": "amount",
+							"value": "",
+							"type": "text"
+						}
+					]
+				},
+				"url": "https://devtest.afritia.com/mobilemprma/seller/refund"
+			},
+			"response": []
+		},
+		{
+			"name": "MP Seller RMA Change Status",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					},
+					{
+						"key": "X-Requested-With",
+						"value": "XMLHttpRequest",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "storeId",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "customerToken",
+							"value": "ns58c1hmdjzckyq7uucyo7uoquweojs5",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "customerToken",
+							"value": "k1zsoq7vm04m75m3vcu9flgutiuwp990",
+							"type": "text"
+						},
+						{
+							"key": "rmaId",
+							"value": "10",
+							"type": "text"
+						},
+						{
+							"key": "type",
+							"value": "1",
+							"type": "text"
+						}
+					]
+				},
+				"url": "https://devtest.afritia.com/mobilemprma/seller/changestatus"
+			},
+			"response": []
+		},
+		{
+			"name": "MP customer rma List",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					},
+					{
+						"key": "X-Requested-With",
+						"value": "XMLHttpRequest",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "storeId",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "customerToken",
+							"value": "ns58c1hmdjzckyq7uucyo7uoquweojs5",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "customerToken",
+							"value": "k1zsoq7vm04m75m3vcu9flgutiuwp990",
+							"type": "text"
+						}
+					]
+				},
+				"url": "https://devtest.afritia.com/mobilemprma/customer/rmaList"
+			},
+			"response": []
+		},
+		{
+			"name": "MP customer rma List Copy",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					},
+					{
+						"key": "X-Requested-With",
+						"value": "XMLHttpRequest",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "storeId",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "customerToken",
+							"value": "ns58c1hmdjzckyq7uucyo7uoquweojs5",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "customerToken",
+							"value": "k1zsoq7vm04m75m3vcu9flgutiuwp990",
+							"type": "text"
+						}
+					]
+				},
+				"url": "https://devtest.afritia.com/mobilemprma/customer/rmaList"
+			},
+			"response": []
+		},
+		{
+			"name": "MP customer view rma",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					},
+					{
+						"key": "X-Requested-With",
+						"value": "XMLHttpRequest",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "storeId",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "customerToken",
+							"value": "ns58c1hmdjzckyq7uucyo7uoquweojs5",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "customerToken",
+							"value": "k1zsoq7vm04m75m3vcu9flgutiuwp990",
+							"type": "text"
+						},
+						{
+							"key": "rmaId",
+							"value": "10",
+							"type": "text"
+						}
+					]
+				},
+				"url": "https://devtest.afritia.com/mobilemprma/customer/viewrma"
+			},
+			"response": []
+		},
+		{
+			"name": "MP customer Cancel Rma",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					},
+					{
+						"key": "X-Requested-With",
+						"value": "XMLHttpRequest",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "storeId",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "customerToken",
+							"value": "ns58c1hmdjzckyq7uucyo7uoquweojs5",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "customerToken",
+							"value": "k1zsoq7vm04m75m3vcu9flgutiuwp990",
+							"type": "text"
+						},
+						{
+							"key": "rmaId",
+							"value": "10",
+							"type": "text"
+						}
+					]
+				},
+				"url": "https://devtest.afritia.com/mobilemprma/customer/cancelrma"
+			},
+			"response": []
+		},
+		{
+			"name": "MP customer Save Rma",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					},
+					{
+						"key": "X-Requested-With",
+						"value": "XMLHttpRequest",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "storeId",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "customerToken",
+							"value": "ns58c1hmdjzckyq7uucyo7uoquweojs5",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "customerToken",
+							"value": "k1zsoq7vm04m75m3vcu9flgutiuwp990",
+							"type": "text"
+						},
+						{
+							"key": "orderId",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "message",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "itemData",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "resolutionType",
+							"value": "3",
+							"type": "text"
+						},
+						{
+							"key": "deliveredStatus",
+							"value": "",
+							"description": "order_status",
+							"type": "text"
+						}
+					]
+				},
+				"url": "https://devtest.afritia.com/mobilemprma/customer/saverma"
+			},
+			"response": []
+		},
+		{
+			"name": "MP customer Rma order items",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					},
+					{
+						"key": "X-Requested-With",
+						"value": "XMLHttpRequest",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "storeId",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "customerToken",
+							"value": "ns58c1hmdjzckyq7uucyo7uoquweojs5",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "customerToken",
+							"value": "k1zsoq7vm04m75m3vcu9flgutiuwp990",
+							"type": "text"
+						},
+						{
+							"key": "orderId",
+							"value": "000000535",
+							"type": "text"
+						}
+					]
+				},
+				"url": "https://devtest.afritia.com/mobilemprma/order/items"
+			},
+			"response": []
+		},
+		{
+			"name": "MP RMA Add message conversation",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					},
+					{
+						"key": "X-Requested-With",
+						"value": "XMLHttpRequest",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "storeId",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "customerToken",
+							"value": "ns58c1hmdjzckyq7uucyo7uoquweojs5",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "customerToken",
+							"value": "k1zsoq7vm04m75m3vcu9flgutiuwp990",
+							"type": "text"
+						},
+						{
+							"key": "rmaId",
+							"value": "11",
+							"type": "text"
+						},
+						{
+							"key": "message",
+							"value": "Item are ship with in 2 days.",
+							"type": "text"
+						},
+						{
+							"key": "sender_type",
+							"value": "1",
+							"type": "text"
+						}
+					]
+				},
+				"url": "https://devtest.afritia.com/mobilemprma/rma/conversation"
+			},
+			"response": []
+		},
+		{
+			"name": "MP RMA Add message conversation Stage",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					},
+					{
+						"key": "X-Requested-With",
+						"value": "XMLHttpRequest",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "storeId",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "customerToken",
+							"value": "ns58c1hmdjzckyq7uucyo7uoquweojs5",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "customerToken",
+							"value": "k1zsoq7vm04m75m3vcu9flgutiuwp990",
+							"type": "text"
+						},
+						{
+							"key": "rmaId",
+							"value": "11",
+							"type": "text"
+						},
+						{
+							"key": "message",
+							"value": "Item are ship with in 2 days.",
+							"type": "text"
+						},
+						{
+							"key": "sender_type",
+							"value": "1",
+							"type": "text"
+						}
+					]
+				},
+				"url": "https://stage.afritia.com/mobilemprma/rma/conversation"
+			},
+			"response": []
+		},
+		{
+			"name": "MP Transaction List Devtest",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					},
+					{
+						"key": "X-Requested-With",
+						"value": "XMLHttpRequest",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "storeId",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "customerToken",
+							"value": "1ytosfoonrc3n91v2yp24n08jfkrp635",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "customerToken",
+							"value": "k1zsoq7vm04m75m3vcu9flgutiuwp990",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "transactionId",
+							"value": "D3RI038Pt7C",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "dateTo",
+							"value": "10/31/2022",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "dateFrom",
+							"value": "10/24/2022",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "customerToken",
+							"value": "1ytosfoonrc3n91v2yp24n08jfkrp635",
+							"type": "text"
+						}
+					]
+				},
+				"url": "https://stage.afritia.com/mobilempapp/marketplace/TransactionList"
+			},
+			"response": []
+		},
+		{
+			"name": "invoice create Download Copy",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					},
+					{
+						"key": "X-Requested-With",
+						"value": "XMLHttpRequest",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "storeId",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "customerToken",
+							"value": "ns58c1hmdjzckyq7uucyo7uoquweojs5",
+							"type": "text"
+						},
+						{
+							"key": "invoice_id",
+							"value": "000000212",
+							"type": "text"
+						}
+					]
+				},
+				"url": "https://devtest.afritia.com/afritiaapp/customer/InvoiceDownload"
+			},
+			"response": []
+		},
+		{
+			"name": "Homepage Data",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					},
+					{
+						"key": "X-Requested-With",
+						"value": "XMLHttpRequest",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "storeId",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "customerToken",
+							"value": "ns58c1hmdjzckyq7uucyo7uoquweojs5",
+							"type": "text"
+						},
+						{
+							"key": "invoice_id",
+							"value": "000000212",
+							"type": "text",
+							"disabled": true
+						}
+					]
+				},
+				"url": "https://devtest.afritia.com/mobileapp/catalog/homePageData"
+			},
+			"response": []
+		},
+		{
+			"name": "Homepage Data Stage",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					},
+					{
+						"key": "X-Requested-With",
+						"value": "XMLHttpRequest",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "storeId",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "customerToken",
+							"value": "ns58c1hmdjzckyq7uucyo7uoquweojs5",
+							"type": "text",
+							"disabled": true
+						}
+					]
+				},
+				"url": "https://stage.afritia.com/mobileapp/catalog/homePageData"
+			},
+			"response": []
+		},
+		{
+			"name": "Homepage New Product list",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					},
+					{
+						"key": "X-Requested-With",
+						"value": "XMLHttpRequest",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "storeId",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "customerToken",
+							"value": "ns58c1hmdjzckyq7uucyo7uoquweojs5",
+							"type": "text"
+						}
+					]
+				},
+				"url": "https://devtest.afritia.com/mobileapp/catalog/newProductList"
+			},
+			"response": []
+		},
+		{
+			"name": "Homepage Featured Product List",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					},
+					{
+						"key": "X-Requested-With",
+						"value": "XMLHttpRequest",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "storeId",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "customerToken",
+							"value": "ns58c1hmdjzckyq7uucyo7uoquweojs5",
+							"type": "text"
+						},
+						{
+							"key": "invoice_id",
+							"value": "000000212",
+							"type": "text"
+						}
+					]
+				},
+				"url": "https://devtest.afritia.com/mobileapp/catalog/featuredProductList"
+			},
+			"response": []
+		},
+		{
+			"name": "Deals of the day",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					},
+					{
+						"key": "X-Requested-With",
+						"value": "XMLHttpRequest",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "storeId",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "customerToken",
+							"value": "1ytosfoonrc3n91v2yp24n08jfkrp635",
+							"type": "text"
+						}
+					]
+				},
+				"url": "https://stage.afritia.com/afritiaapp/catalog/dealsoftheday"
+			},
+			"response": []
+		},
+		{
+			"name": "Save product Seller dev",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					},
+					{
+						"key": "X-Requested-With",
+						"value": "XMLHttpRequest",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "storeId",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "customerToken",
+							"value": "ns58c1hmdjzckyq7uucyo7uoquweojs5",
+							"type": "text"
+						},
+						{
+							"key": "sku",
+							"value": "xyznewsdfrgrg",
+							"type": "text"
+						},
+						{
+							"key": "qty",
+							"value": "200",
+							"type": "text"
+						},
+						{
+							"key": "type",
+							"value": "simple",
+							"type": "text"
+						},
+						{
+							"key": "name",
+							"value": "xyz new",
+							"type": "text"
+						},
+						{
+							"key": "price",
+							"value": "1000",
+							"type": "text"
+						},
+						{
+							"key": "status",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "isInStock",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "visibility",
+							"value": "4",
+							"type": "text"
+						},
+						{
+							"key": "websiteIds",
+							"value": "",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "description",
+							"value": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s\n\n",
+							"type": "text"
+						},
+						{
+							"key": "customAttribute",
+							"value": "{'mgs_brand':'Crolla'}",
+							"type": "text"
+						},
+						{
+							"key": "categoryIds",
+							"value": "{'175'}",
+							"type": "text"
+						}
+					]
+				},
+				"url": "https://devtest.afritia.com/mobilempapp/product/SaveProduct"
+			},
+			"response": []
+		},
+		{
+			"name": "Send Invoice",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					},
+					{
+						"key": "X-Requested-With",
+						"value": "XMLHttpRequest",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "storeId",
+							"value": "9",
+							"type": "text"
+						},
+						{
+							"key": "customerToken",
+							"value": "1ytosfoonrc3n91v2yp24n08jfkrp635",
+							"type": "text"
+						},
+						{
+							"key": "incrementId",
+							"value": "000000546",
+							"type": "text"
+						},
+						{
+							"key": "invoiceId",
+							"value": "216",
+							"type": "text"
+						}
+					]
+				},
+				"url": "https://stage.afritia.com/mobilempapp/marketplace/SendInvoice"
+			},
+			"response": []
+		},
+		{
+			"name": "Customer list in seller acoount",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					},
+					{
+						"key": "X-Requested-With",
+						"value": "XMLHttpRequest",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "storeId",
+							"value": "9",
+							"type": "text"
+						},
+						{
+							"key": "customerToken",
+							"value": "1ytosfoonrc3n91v2yp24n08jfkrp635",
+							"type": "text"
+						}
+					]
+				},
+				"url": "https://stage.afritia.com/afritiaapp/marketplace/customerList"
+			},
+			"response": []
+		},
+		{
+			"name": "Customer list in seller acoount dev",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					},
+					{
+						"key": "X-Requested-With",
+						"value": "XMLHttpRequest",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "storeId",
+							"value": "9",
+							"type": "text"
+						},
+						{
+							"key": "customerToken",
+							"value": "k1zsoq7vm04m75m3vcu9flgutiuwp990",
+							"type": "text"
+						}
+					]
+				},
+				"url": "https://devtest.afritia.com/afritiaapp/marketplace/customerList"
+			},
+			"response": []
+		},
+		{
+			"name": "View Credit Memo stage",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					},
+					{
+						"key": "X-Requested-With",
+						"value": "XMLHttpRequest",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "storeId",
+							"value": "9",
+							"type": "text"
+						},
+						{
+							"key": "customerToken",
+							"value": "917or7wtxqjwjjmkmx0bqh015uvsj7og",
+							"type": "text"
+						},
+						{
+							"key": "incrementId",
+							"value": "9000000014",
+							"type": "text"
+						},
+						{
+							"key": "creditmemoId",
+							"value": "8",
+							"type": "text"
+						}
+					]
+				},
+				"url": "https://stage.afritia.com/mobilempapp/marketplace/ViewCreditMemo"
+			},
+			"response": []
+		},
+		{
+			"name": "seller Collection Dev",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					},
+					{
+						"key": "X-Requested-With",
+						"value": "XMLHttpRequest",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "storeId",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "customerToken",
+							"value": "ns58c1hmdjzckyq7uucyo7uoquweojs5",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "sellerId",
+							"value": "403",
+							"type": "text"
+						},
+						{
+							"key": "categoryId",
+							"value": "6",
+							"type": "text",
+							"disabled": true
+						}
+					]
+				},
+				"url": "https://devtest.afritia.com/mobilempapp/marketplace/sellerCollection"
+			},
+			"response": []
+		},
+		{
+			"name": "seller Collection Stage",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					},
+					{
+						"key": "X-Requested-With",
+						"value": "XMLHttpRequest",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "storeId",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "customerToken",
+							"value": "ns58c1hmdjzckyq7uucyo7uoquweojs5",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "sellerId",
+							"value": "515",
+							"type": "text"
+						}
+					]
+				},
+				"url": "https://stage.afritia.com/mobilempapp/marketplace/sellerCollection"
+			},
+			"response": []
+		},
+		{
+			"name": "view seller collection Dev",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					},
+					{
+						"key": "X-Requested-With",
+						"value": "XMLHttpRequest",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "storeId",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "customerToken",
+							"value": "ns58c1hmdjzckyq7uucyo7uoquweojs5",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "sellerId",
+							"value": "403",
+							"type": "text"
+						}
+					]
+				},
+				"url": "https://devtest.afritia.com/mobilempapp/marketplace/viewSellerCollection"
+			},
+			"response": []
+		},
+		{
+			"name": "view seller collection Stage",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					},
+					{
+						"key": "X-Requested-With",
+						"value": "XMLHttpRequest",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "storeId",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "customerToken",
+							"value": "ns58c1hmdjzckyq7uucyo7uoquweojs5",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "sellerId",
+							"value": "515",
+							"type": "text"
+						},
+						{
+							"key": "sellerstoreId",
+							"value": "1",
+							"type": "text",
+							"disabled": true
+						}
+					]
+				},
+				"url": "https://stage.afritia.com/mobilempapp/marketplace/viewsellercollection"
+			},
+			"response": []
+		},
+		{
+			"name": "phone code list",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					},
+					{
+						"key": "X-Requested-With",
+						"value": "XMLHttpRequest",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "storeId",
+							"value": "1",
+							"type": "text",
+							"disabled": true
+						}
+					]
+				},
+				"url": "https://stage.afritia.com/afritiaapp/Customer/countrycodeList"
+			},
+			"response": []
+		},
+		{
+			"name": "country List",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					},
+					{
+						"key": "X-Requested-With",
+						"value": "XMLHttpRequest",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "storeId",
+							"value": "1",
+							"type": "text",
+							"disabled": true
+						}
+					]
+				},
+				"url": "https://devtest.afritia.com/afritiaapp/customer/countryList"
+			},
+			"response": []
+		},
+		{
+			"name": "Get Order Items",
+			"protocolProfileBehavior": {
+				"maxRedirects": 100
+			},
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					},
+					{
+						"key": "X-Requested-With",
+						"value": "XMLHttpRequest",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "storeId",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "customerToken",
+							"value": "1ytosfoonrc3n91v2yp24n08jfkrp635",
+							"type": "text"
+						},
+						{
+							"key": "shipment_id",
+							"value": "43",
+							"type": "text"
+						}
+					]
+				},
+				"url": "https://stage.afritia.com/afritiaapp/Marketplace/GetShipmentItems"
+			},
+			"response": []
+		},
+		{
+			"name": "ViewShipmentPackage",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					},
+					{
+						"key": "X-Requested-With",
+						"value": "XMLHttpRequest",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "storeId",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "customerToken",
+							"value": "1ytosfoonrc3n91v2yp24n08jfkrp635",
+							"type": "text"
+						},
+						{
+							"key": "order_id",
+							"value": "569",
+							"type": "text"
+						}
+					]
+				},
+				"url": "https://stage.afritia.com/afritiaapp/Marketplace/ViewShipmentPackage"
+			},
+			"response": []
+		},
+		{
+			"name": "https://secure.shippingapis.com/ShippingAPI.dll?API=TrackV2&XML=<TrackRequest USERID=\"832AFRIT1097\">\n<TrackID ID=\"4209455625569200190314773921732372\"></TrackID>\n</TrackRequest>",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"exec": [
+							"const apiKey = pm.environment.get(\"apiKey\");\r",
+							"const track_id = \"4209455625569200190314773921732372\"\r",
+							"const xmlBody = \r",
+							"'<TrackRequest USERID=\"' + apiKey +'\">' +\r",
+							"    '<TrackID ID=\"' + track_id + '\"></TrackID>' +\r",
+							"'</TrackRequest>';\r",
+							"\r",
+							"postman.setEnvironmentVariable(\"xmlParam\", xmlBody);\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://secure.shippingapis.com/ShippingAPI.dll?API=TrackV2&XML=<TrackRequest USERID=\"832AFRIT1097\">\n<TrackID ID=\"4209455625569200190314773921732372\"></TrackID>\n</TrackRequest>",
+					"protocol": "https",
+					"host": [
+						"secure",
+						"shippingapis",
+						"com"
+					],
+					"path": [
+						"ShippingAPI.dll"
+					],
+					"query": [
+						{
+							"key": "USERID",
+							"value": "Afritia",
+							"disabled": true
+						},
+						{
+							"key": "TrackID",
+							"value": "4209455625569200190314773921732372",
+							"disabled": true
+						},
+						{
+							"key": "API",
+							"value": "TrackV2"
+						},
+						{
+							"key": "XML",
+							"value": "<TrackRequest USERID=\"832AFRIT1097\">\n<TrackID ID=\"4209455625569200190314773921732372\"></TrackID>\n</TrackRequest>"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://production.shippingapis.com/ShippingAPI.dll?API=Verify&XML=<AddressValidateRequest USERID=\"XXXXXX\">\n    <Revision>1</Revision>\n    <Address>\n        <Address1>Suite 6100</Address1>\n        <Address2>185 Berry St</Address2>\n        <City>San Francis",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					},
+					{
+						"key": "X-Requested-With",
+						"value": "XMLHttpRequest",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
+				"url": {
+					"raw": "http://production.shippingapis.com/ShippingAPI.dll?API=Verify&XML=<AddressValidateRequest USERID=\"XXXXXX\">\n    <Revision>1</Revision>\n    <Address>\n        <Address1>Suite 6100</Address1>\n        <Address2>185 Berry St</Address2>\n        <City>San Francisco</City>\n        <State>CA</State>\n        <Zip5>94556</Zip5>\n        <Zip4></Zip4>\n    </Address>\n</AddressValidateRequest>\n",
+					"protocol": "http",
+					"host": [
+						"production",
+						"shippingapis",
+						"com"
+					],
+					"path": [
+						"ShippingAPI.dll"
+					],
+					"query": [
+						{
+							"key": "API",
+							"value": "Verify"
+						},
+						{
+							"key": "XML",
+							"value": "<AddressValidateRequest USERID=\"XXXXXX\">\n    <Revision>1</Revision>\n    <Address>\n        <Address1>Suite 6100</Address1>\n        <Address2>185 Berry St</Address2>\n        <City>San Francisco</City>\n        <State>CA</State>\n        <Zip5>94556</Zip5>\n        <Zip4></Zip4>\n    </Address>\n</AddressValidateRequest>\n"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://production.shippingapis.com/ShippingAPI.dll?API=TrackV2&XML=<TrackRequest USERID=\"Afritia\"><TrackID ID=\"EJ958083578US\"></TrackID></TrackRequest>",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://production.shippingapis.com/ShippingAPI.dll?API=TrackV2&XML=<TrackRequest USERID=\"Afritia\"><TrackID ID=\"EJ958083578US\"></TrackID></TrackRequest>",
+					"protocol": "http",
+					"host": [
+						"production",
+						"shippingapis",
+						"com"
+					],
+					"path": [
+						"ShippingAPI.dll"
+					],
+					"query": [
+						{
+							"key": "API",
+							"value": "TrackV2"
+						},
+						{
+							"key": "XML",
+							"value": "<TrackRequest USERID=\"Afritia\"><TrackID ID=\"EJ958083578US\"></TrackID></TrackRequest>"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://xmlpitest-ea.dhl.com/XMLShippingServlet?XML=<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<req:KnownTrackingRequest xmlns:req=\"http://www.dhl.com\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.dhl.com TrackingReques",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "DHL-API-Key",
+						"value": "MtzukoCsWVDf4HXqZyqrnKgtGd0GBTbA",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"url": {
+					"raw": "https://xmlpitest-ea.dhl.com/XMLShippingServlet?XML=<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<req:KnownTrackingRequest xmlns:req=\"http://www.dhl.com\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.dhl.com TrackingRequestKnown.xsd\" schemaVersion=\"1.0\">\n\t<Request>\n\t\t<ServiceHeader>\n\t\t\t<MessageTime>2002-06-25T11:28:56-08:00</MessageTime>\n\t\t\t<MessageReference>1234567890123456789012345678</MessageReference>\n\t\t\t<SiteID>CustomerSiteID</SiteID>\n\t\t\t<Password>CustomerPassword</Password>\n\t\t</ServiceHeader>\n\t</Request>\n\t<LanguageCode>String</LanguageCode>\n\t<AWBNumber>1031868810</AWBNumber>\n\t<LevelOfDetails>ALL_CHECK_POINTS</LevelOfDetails>\n</req:KnownTrackingRequest>",
+					"protocol": "https",
+					"host": [
+						"xmlpitest-ea",
+						"dhl",
+						"com"
+					],
+					"path": [
+						"XMLShippingServlet"
+					],
+					"query": [
+						{
+							"key": "XML",
+							"value": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<req:KnownTrackingRequest xmlns:req=\"http://www.dhl.com\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.dhl.com TrackingRequestKnown.xsd\" schemaVersion=\"1.0\">\n\t<Request>\n\t\t<ServiceHeader>\n\t\t\t<MessageTime>2002-06-25T11:28:56-08:00</MessageTime>\n\t\t\t<MessageReference>1234567890123456789012345678</MessageReference>\n\t\t\t<SiteID>CustomerSiteID</SiteID>\n\t\t\t<Password>CustomerPassword</Password>\n\t\t</ServiceHeader>\n\t</Request>\n\t<LanguageCode>String</LanguageCode>\n\t<AWBNumber>1031868810</AWBNumber>\n\t<LevelOfDetails>ALL_CHECK_POINTS</LevelOfDetails>\n</req:KnownTrackingRequest>"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://api-eu.dhl.com/track/shipments?trackingNumber=1031868810&language=en&offset=0&limit=5",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "DHL-API-Key",
+						"value": "demo-key",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://api-eu.dhl.com/track/shipments?trackingNumber=1031868810&language=en&offset=0&limit=5",
+					"protocol": "https",
+					"host": [
+						"api-eu",
+						"dhl",
+						"com"
+					],
+					"path": [
+						"track",
+						"shipments"
+					],
+					"query": [
+						{
+							"key": "trackingNumber",
+							"value": "1031868810"
+						},
+						{
+							"key": "language",
+							"value": "en"
+						},
+						{
+							"key": "offset",
+							"value": "0"
+						},
+						{
+							"key": "limit",
+							"value": "5"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://giglthirdpartyapitestenv.azurewebsites.net/api/thirdparty/login",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					},
+					{
+						"key": "X-Requested-With",
+						"value": "XMLHttpRequest",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{ \r\n \"username\": \"ECO001449\", \r\n \"password\": \"1234567\",\r\n \"SessionObj\": \"\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "https://giglthirdpartyapitestenv.azurewebsites.net/api/thirdparty/login"
+			},
+			"response": []
+		},
+		{
+			"name": "uploadimage",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					},
+					{
+						"key": "X-Requested-With",
+						"value": "XMLHttpRequest",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "storeId",
+							"value": "",
+							"type": "text"
+						}
+					]
+				},
+				"url": ""
+			},
+			"response": []
+		},
+		{
+			"name": "RewardFormData",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					},
+					{
+						"key": "X-Requested-With",
+						"value": "XMLHttpRequest",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "storeId",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "customerToken",
+							"value": "q2vna5qzi8im0o1f5i2e3j1xgnvtrnbk",
+							"type": "text"
+						}
+					]
+				},
+				"url": "https://devtest.afritia.com/afritiaapp/customer/RewardFormData"
+			},
+			"response": []
+		},
+		{
+			"name": "RewardInvitations",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					},
+					{
+						"key": "X-Requested-With",
+						"value": "XMLHttpRequest",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "storeId",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "customerToken",
+							"value": "q2vna5qzi8im0o1f5i2e3j1xgnvtrnbk",
+							"type": "text"
+						},
+						{
+							"key": "name",
+							"value": "{\"1\":\"testing\",\"2\":\"test\"}",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "{\"1\":\"test123@gmail.com\",\"2\":\"dev.webile@gmail.com\"}",
+							"type": "text"
+						}
+					]
+				},
+				"url": "https://devtest.afritia.com/afritiaapp/customer/RewardInvitations"
+			},
+			"response": []
+		},
+		{
+			"name": "https://devtest.afritia.com/afritiaapp/customer/RewardHistory",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					},
+					{
+						"key": "X-Requested-With",
+						"value": "XMLHttpRequest",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "storeId",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "customerToken",
+							"value": "q2vna5qzi8im0o1f5i2e3j1xgnvtrnbk",
+							"type": "text"
+						}
+					]
+				},
+				"url": "https://devtest.afritia.com/afritiaapp/customer/RewardHistory"
+			},
+			"response": []
+		},
+		{
+			"name": "https://devtest.afritia.com/afritiaapp/customer/DeleteCard",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					},
+					{
+						"key": "X-Requested-With",
+						"value": "XMLHttpRequest",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "storeId",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "customerToken",
+							"value": "q2vna5qzi8im0o1f5i2e3j1xgnvtrnbk",
+							"type": "text"
+						},
+						{
+							"key": "stripeToken",
+							"value": "pm_1N15rdAL9efz3I7xlT2Ah7E3",
+							"type": "text"
+						}
+					]
+				},
+				"url": "https://devtest.afritia.com/afritiaapp/customer/DeleteCard"
+			},
+			"response": []
+		},
+		{
+			"name": "https://stage.afritia.com/afritiaapp/customer/GetCards",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					},
+					{
+						"key": "X-Requested-With",
+						"value": "XMLHttpRequest",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "storeId",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "customerToken",
+							"value": "q2vna5qzi8im0o1f5i2e3j1xgnvtrnbk",
+							"type": "text"
+						}
+					]
+				},
+				"url": "https://stage.afritia.com/afritiaapp/customer/GetCards"
+			},
+			"response": []
+		},
+		{
+			"name": "SearchHistorySave",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					},
+					{
+						"key": "X-Requested-With",
+						"value": "XMLHttpRequest",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "storeId",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "customerToken",
+							"value": "q2vna5qzi8im0o1f5i2e3j1xgnvtrnbk",
+							"type": "text"
+						},
+						{
+							"key": "queryText",
+							"value": "test",
+							"type": "text"
+						}
+					]
+				},
+				"url": "https://devtest.afritia.com/afritiaapp/customer/SearchHistorySave"
+			},
+			"response": []
+		},
+		{
+			"name": "SearchHistoryList",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					},
+					{
+						"key": "X-Requested-With",
+						"value": "XMLHttpRequest",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "storeId",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "customerToken",
+							"value": "q2vna5qzi8im0o1f5i2e3j1xgnvtrnbk",
+							"type": "text"
+						}
+					]
+				},
+				"url": "https://devtest.afritia.com/afritiaapp/customer/SearchHistoryList"
+			},
+			"response": []
+		},
+		{
+			"name": "ClearSearchHistory",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					},
+					{
+						"key": "X-Requested-With",
+						"value": "XMLHttpRequest",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "storeId",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "customerToken",
+							"value": "q2vna5qzi8im0o1f5i2e3j1xgnvtrnbk",
+							"type": "text"
+						}
+					]
+				},
+				"url": "https://devtest.afritia.com/afritiaapp/customer/ClearSearchHistory"
+			},
+			"response": []
+		},
+		{
+			"name": "GetCards",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					},
+					{
+						"key": "X-Requested-With",
+						"value": "XMLHttpRequest",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "storeId",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "customerToken",
+							"value": "9ousmefb3s450wgdyu3b54dxj0c1ofwy",
+							"type": "text"
+						}
+					]
+				},
+				"url": "https://stage.afritia.com/afritiaapp/customer/GetCards"
+			},
+			"response": []
+		},
+		{
+			"name": "https://giglthirdpartyapitestenv.azurewebsites.net/api/thirdparty/captureshipment",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{ \r\n \"ReceiverAddress\": \"Dominos Pizza Gbagada,1A  Idowu Olaitan St, Gbagada, Lagos, Nigeria\",  \"CustomerCode\": \"ECO001449\", \r\n \"SenderLocality\": \"Ifako Ijaye\", \r\n \"SenderAddress\": \"21 Emmanuel Olorunfemi  St, Ifako Agege, Lagos, Nigeria\", \r\n \"ReceiverPhoneNumber\": \"PHONE NUMBER\",  \"VehicleType\": \"BIKE\", \r\n \"SenderPhoneNumber\": \"SENDER PHONE NUMBER\",  \"SenderName\": \"TEST ECOMMERCE IT\",  \"ReceiverName\": \"Ehinomen\", \r\n \"UserId\": \"f02ff192-11af-46b6-bd0a bf118d0c3d47\", \"ReceiverStationId\": \"4\", \r\n \"SenderStationId\": \"4\", \r\n \"ReceiverLocation\":  \r\n { \r\n \"Latitude\": \"6.5483775\", \r\n \"Longitude\": \"3.3883414\" \r\n }, \r\n \"SenderLocation\":  \r\n { \r\n \"Latitude\": \"6.639438\", \r\n \"Longitude\": \"3.330983\" \r\n }, \r\n \"PreShipmentItems\":  \r\n [  \r\n { \r\n \"SpecialPackageId\": \"0\", \r\n \"Quantity\": \"1\", \r\n \"Weight\": \"1\", \r\n \"ItemType\": \"Normal\", \r\n \"WeightRange\": \"0\", \r\n \"ItemName\": \"Shoe Lace\", \r\n \"Value\": \"1000\", \r\n \"ShipmentType\": \"Regular\",  \"Description\": \"for the boys use\",  \"ImageUrl\": \"\" \r\n } \r\n ] \r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "https://giglthirdpartyapitestenv.azurewebsites.net/api/thirdparty/captureshipment"
+			},
+			"response": []
+		},
+		{
+			"name": "https://devtest.afritia.com/mobilempapp/marketplace/CreateAccountFormData",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					},
+					{
+						"key": "X-Requested-With",
+						"value": "XMLHttpRequest",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "storeId",
+							"value": "1",
+							"type": "text"
+						}
+					]
+				},
+				"url": "https://devtest.afritia.com/mobilempapp/marketplace/CreateAccountFormData"
+			},
+			"response": []
+		},
+		{
+			"name": "homePageData",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					},
+					{
+						"key": "X-Requested-With",
+						"value": "XMLHttpRequest",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "storeId",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "customerToken",
+							"value": "9ousmefb3s450wgdyu3b54dxj0c1ofwy",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "width",
+							"value": "1125",
+							"type": "text"
+						},
+						{
+							"key": "websiteId",
+							"value": "1",
+							"type": "text"
+						}
+					]
+				},
+				"url": "https://stage.afritia.com/mobileapp/catalog/homePageData"
+			},
+			"response": []
+		},
+		{
+			"name": "Homepage productPageData",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					},
+					{
+						"key": "X-Requested-With",
+						"value": "XMLHttpRequest",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "storeId",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "customerToken",
+							"value": "9ousmefb3s450wgdyu3b54dxj0c1ofwy",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "productId",
+							"value": "992",
+							"type": "text"
+						}
+					]
+				},
+				"url": "https://stage.afritia.com/mobileapp/catalog/productPageData"
+			},
+			"response": []
+		},
+		{
+			"name": "ShippingPaymentMethodInfo",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					},
+					{
+						"key": "X-Requested-With",
+						"value": "XMLHttpRequest",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "storeId",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "customerToken",
+							"value": "q2vna5qzi8im0o1f5i2e3j1xgnvtrnbk",
+							"type": "text"
+						},
+						{
+							"key": "quoteId",
+							"value": "0",
+							"type": "text"
+						},
+						{
+							"key": "checkoutMethod",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "billingData",
+							"value": "{  \"newAddress\": {\n       \"region\": \"Alabama\",\n       \"prefix\":\"\",\n       \"suffix\":\"\",\n       \"fax\":\"\",\n       \"company\":\"test\",\n       \"region_id\": \"AL\",\n       \"country_id\": \"NG\",\n       \"street\": [\n   \"Lagos\"\n ],\n \"postcode\": \"100001\",\n \"city\": \"Lagos\",\n \"firstName\": \"Mutiu\",\n \"lastName\": \"Dawodu\",\n \"telephone\": \"21547412144\",\n \"custom_attributes\":[{\n    \"receiver_station\" : \"ABL-ABAKALIKI-EBONYI\"\n}]\n  },\n  \"useForShipping\": true,\n  \"addressId\":\"\"\n}",
+							"type": "text"
+						},
+						{
+							"key": "shippingData",
+							"value": "{  \"addressInformation\": {\n      \"shipping_address\": {\n       \"region\": \"Gujarat\",\n       \"region_id\": 580,\n       \"region_code\": \"GJ\",\n       \"country_id\": \"IN\",\n       \"street\": [\n   \"Shiv Elite\"\n ],\n \"postcode\": \"364001\",\n \"city\": \"Bhavnagar\",\n \"firstname\": \"Jignesh\",\n \"lastname\": \"Parmar\",\n \"email\": \"jignesh.meetanshi@gmail.com\",\n \"telephone\": \"8141102201\"\n  },\n  \"shipping_carrier_code\": \"flatrate\",\n  \"shipping_method_code\": \"flatrate\"\n  },\n  \"useForShipping\": true\n}",
+							"type": "text"
+						}
+					]
+				},
+				"url": "https://devtest.afritia.com/mobileapp/Checkout/ShippingPaymentMethodInfo/"
+			},
+			"response": []
+		},
+		{
+			"name": "ShippingPaymentMethodInfo Existing address",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					},
+					{
+						"key": "X-Requested-With",
+						"value": "XMLHttpRequest",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "storeId",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "customerToken",
+							"value": "z225dbm97xg23g0qlu76imgwfysn4sxc",
+							"description": "stage",
+							"type": "text"
+						},
+						{
+							"key": "customerToken",
+							"value": "7jy85c9i6ie6ke2yxsvjmfl6s3zpu555",
+							"description": "live",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "quoteId",
+							"value": "0",
+							"type": "text"
+						},
+						{
+							"key": "checkoutMethod",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "billingData",
+							"value": "{ \"newAddress\":\"\",\n  \"useForShipping\": true,\n  \"addressId\":53\n}",
+							"description": "stage",
+							"type": "text"
+						},
+						{
+							"key": "shippingData",
+							"value": "{ \"newAddress\":\"\",\n  \"sameAsBilling\": true,\n  \"addressId\":53\n}",
+							"description": "stage",
+							"type": "text"
+						},
+						{
+							"key": "billingData",
+							"value": "{ \"newAddress\":\"\",\n  \"useForShipping\": true,\n  \"addressId\":11\n}",
+							"description": "live",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "shippingData",
+							"value": "{ \"newAddress\":\"\",\n  \"sameAsBilling\": true,\n  \"addressId\":11\n}",
+							"description": "live",
+							"type": "text",
+							"disabled": true
+						}
+					]
+				},
+				"url": "https://stage.afritia.com/mobileapp/Checkout/ShippingPaymentMethodInfo/"
+			},
+			"response": []
+		},
+		{
+			"name": "saveOrder",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					},
+					{
+						"key": "X-Requested-With",
+						"value": "XMLHttpRequest",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "storeId",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "quoteId",
+							"value": "0",
+							"type": "text"
+						},
+						{
+							"key": "customerToken",
+							"value": "q2vna5qzi8im0o1f5i2e3j1xgnvtrnbk",
+							"type": "text"
+						}
+					]
+				},
+				"url": "https://devtest.afritia.com/mobileapp/checkout/saveOrder"
+			},
+			"response": []
+		},
+		{
+			"name": "Order History",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					},
+					{
+						"key": "X-Requested-With",
+						"value": "XMLHttpRequest",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "storeId",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "customerToken",
+							"value": "qwirrl7syz912aat9ufdfhwnv6ict1no",
+							"description": "stage",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "customerToken",
+							"value": "7jy85c9i6ie6ke2yxsvjmfl6s3zpu555",
+							"description": "live",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "customerToken",
+							"value": "9ousmefb3s450wgdyu3b54dxj0c1ofwy",
+							"type": "text"
+						}
+					]
+				},
+				"url": "https://stage.afritia.com/mobileapp/customer/orderList"
+			},
+			"response": []
+		},
+		{
+			"name": "MP Order History",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					},
+					{
+						"key": "X-Requested-With",
+						"value": "XMLHttpRequest",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "storeId",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "customerToken",
+							"value": "9ousmefb3s450wgdyu3b54dxj0c1ofwy",
+							"description": "stage",
+							"type": "text"
+						}
+					]
+				},
+				"url": "https://stage.afritia.com/mobilempapp/marketplace/orderList/"
+			},
+			"response": []
+		},
+		{
+			"name": "Cart Details",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					},
+					{
+						"key": "X-Requested-With",
+						"value": "XMLHttpRequest",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "storeId",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "customerToken",
+							"value": "z225dbm97xg23g0qlu76imgwfysn4sxc",
+							"description": "stage",
+							"type": "text"
+						},
+						{
+							"key": "customerToken",
+							"value": "7jy85c9i6ie6ke2yxsvjmfl6s3zpu555",
+							"description": "live",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "currency",
+							"value": "USD",
+							"type": "text"
+						}
+					]
+				},
+				"url": "https://stage.afritia.com/mobileapp/checkout/cartDetails"
+			},
+			"response": []
+		},
+		{
+			"name": "Forgot password",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "storeId",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "web.test235@gmail.com",
+							"type": "text"
+						},
+						{
+							"key": "websiteId",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "resend",
+							"value": "1",
+							"type": "text",
+							"disabled": true
+						}
+					]
+				},
+				"url": "https://stage.afritia.com/mobileapp/customer/ForgotPassword"
+			},
+			"response": []
+		},
+		{
+			"name": "ResetPassword",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					},
+					{
+						"key": "X-Requested-With",
+						"value": "XMLHttpRequest",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "storeId",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "web.test235@gmail.com",
+							"type": "text"
+						},
+						{
+							"key": "websiteId",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "Test@123#",
+							"type": "text"
+						}
+					]
+				},
+				"url": "https://stage.afritia.com/afritiaapp/customer/ResetPassword"
+			},
+			"response": []
+		},
+		{
+			"name": "NG - Bank account verify API token",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{ \r\n    \"clientId\": \"1CUQQ2PF10FHW9ELXBOM\",\r\n    \"secret\": \"73467ebb95e1467595aade967bf1deb8\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "https://api.qoreid.com/token"
+			},
+			"response": []
+		},
+		{
+			"name": "NG - Bank account number",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": {
+						"token": "eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICIzaVgtaEFrS3RmNUlsYWhRcElrNWwwbFBRVlNmVnpBdG9WVWQ4UXZ1OHJFIn0.eyJleHAiOjE3MDM2MDcxMTgsImlhdCI6MTcwMzU5OTkxOCwianRpIjoiNzM4MzMwMjEtYmZlOS00ZDFmLThmZTEtYjc5NzY2MGZmNWQ2IiwiaXNzIjoiaHR0cHM6Ly9hdXRoLnFvcmVpZC5jb20vYXV0aC9yZWFsbXMvcW9yZWlkIiwiYXVkIjpbInFvcmVpZGFwaSIsImFjY291bnQiXSwic3ViIjoiMWJmNzk2OWMtODJmNi00Njc5LTk2ZTUtM2ZlNzQwNmVmZWRjIiwidHlwIjoiQmVhcmVyIiwiYXpwIjoiMUNVUVEyUEYxMEZIVzlFTFhCT00iLCJhY3IiOiIxIiwicmVhbG1fYWNjZXNzIjp7InJvbGVzIjpbIm9mZmxpbmVfYWNjZXNzIiwidW1hX2F1dGhvcml6YXRpb24iLCJkZWZhdWx0LXJvbGVzLXFvcmVpZCJdfSwicmVzb3VyY2VfYWNjZXNzIjp7InFvcmVpZGFwaSI6eyJyb2xlcyI6WyJ2ZXJpZnlfYnZuX251YmFuX3N1YiIsInZlcmlmeV9udWJhbl9zdWIiXX0sImFjY291bnQiOnsicm9sZXMiOlsibWFuYWdlLWFjY291bnQiLCJtYW5hZ2UtYWNjb3VudC1saW5rcyIsInZpZXctcHJvZmlsZSJdfX0sInNjb3BlIjoicHJvZmlsZSBlbWFpbCIsImVudmlyb25tZW50Ijoic2FuZGJveCIsImNsaWVudElkIjoiMUNVUVEyUEYxMEZIVzlFTFhCT00iLCJjbGllbnRIb3N0IjoiMTkyLjE2OC4xMzIuMjAxIiwib3JnYW5pc2F0aW9uSWQiOjE0NjM0NSwiZW1haWxfdmVyaWZpZWQiOmZhbHNlLCJwcmVmZXJyZWRfdXNlcm5hbWUiOiJzZXJ2aWNlLWFjY291bnQtMWN1cXEycGYxMGZodzllbHhib20iLCJhcHBsaWNhdGlvbklkIjoxMjIyNywiY2xpZW50QWRkcmVzcyI6IjE5Mi4xNjguMTMyLjIwMSJ9.J45lyCjlwHI3_A8TTERZywJb6jQZTbqtQzLVuh0ar3yBnagnVbFYR1NGlNwIKrTaz40RiQBYxKGI6gBsmIqvVLEl4rqqllbDxC9mDPSUQE_okLEJu2_y9oTX3PPLUnyEM8FZLcJGyphn_i1tj02mcN4qaDG8iYtTij5ZAzP31RLny_pMORLcsdXO3VPsusGsMGPfJU29-pFURPQ88uWq7u-xHh_16A-E052JCcGsx9VqayCqtk0Dr3to8S6G6ufXo8LSxjGlQ-gn5e4M-7baf29Bk2YevNhMqWFtifWSg6XlL-TbGQDh-7T6rPFKylrCaEu7qJBc-9tjMHxMNgnrEA"
+					}
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "firstname",
+							"value": "Mutiu",
+							"type": "text"
+						},
+						{
+							"key": "lastname",
+							"value": "Dawodu",
+							"type": "text"
+						},
+						{
+							"key": "accountNumber",
+							"value": "0050332426",
+							"type": "text"
+						},
+						{
+							"key": "bankCode",
+							"value": "058",
+							"type": "text"
+						}
+					]
+				},
+				"url": "https://api.qoreid.com/v1/ng/identities/nuban"
+			},
+			"response": []
+		},
+		{
+			"name": "NG - Get NUBAN Banks",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": {
+						"token": "eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICIzaVgtaEFrS3RmNUlsYWhRcElrNWwwbFBRVlNmVnpBdG9WVWQ4UXZ1OHJFIn0.eyJleHAiOjE3MDM2NzgzNTMsImlhdCI6MTcwMzY3MTE1MywianRpIjoiMjQwZTZiZjQtNmNlOC00ZjUyLThmNzItMWVhYzE1ODlkNzliIiwiaXNzIjoiaHR0cHM6Ly9hdXRoLnFvcmVpZC5jb20vYXV0aC9yZWFsbXMvcW9yZWlkIiwiYXVkIjpbInFvcmVpZGFwaSIsImFjY291bnQiXSwic3ViIjoiMWJmNzk2OWMtODJmNi00Njc5LTk2ZTUtM2ZlNzQwNmVmZWRjIiwidHlwIjoiQmVhcmVyIiwiYXpwIjoiMUNVUVEyUEYxMEZIVzlFTFhCT00iLCJhY3IiOiIxIiwicmVhbG1fYWNjZXNzIjp7InJvbGVzIjpbIm9mZmxpbmVfYWNjZXNzIiwidW1hX2F1dGhvcml6YXRpb24iLCJkZWZhdWx0LXJvbGVzLXFvcmVpZCJdfSwicmVzb3VyY2VfYWNjZXNzIjp7InFvcmVpZGFwaSI6eyJyb2xlcyI6WyJ2ZXJpZnlfYnZuX251YmFuX3N1YiIsInZlcmlmeV9udWJhbl9zdWIiXX0sImFjY291bnQiOnsicm9sZXMiOlsibWFuYWdlLWFjY291bnQiLCJtYW5hZ2UtYWNjb3VudC1saW5rcyIsInZpZXctcHJvZmlsZSJdfX0sInNjb3BlIjoicHJvZmlsZSBlbWFpbCIsImVudmlyb25tZW50Ijoic2FuZGJveCIsImNsaWVudElkIjoiMUNVUVEyUEYxMEZIVzlFTFhCT00iLCJjbGllbnRIb3N0IjoiMTkyLjE2OC4xNjcuMTkzIiwib3JnYW5pc2F0aW9uSWQiOjE0NjM0NSwiZW1haWxfdmVyaWZpZWQiOmZhbHNlLCJwcmVmZXJyZWRfdXNlcm5hbWUiOiJzZXJ2aWNlLWFjY291bnQtMWN1cXEycGYxMGZodzllbHhib20iLCJhcHBsaWNhdGlvbklkIjoxMjIyNywiY2xpZW50QWRkcmVzcyI6IjE5Mi4xNjguMTY3LjE5MyJ9.BsADHITdmkMFyW-X-CoY9QuBiYgNTnbfDqLMSF00tRac0Qv-V0O4EwyEi9Xn5SfLUQHIXAKlkiOSDNI0TCNEwo2YAumCCfT04YFXv_0qle8GIbKEy_ots4Wawf-TwE-chm_XUmECwbwr8Mwb13uT7__z0wjHdy7jRFsuvu8w__RUPkF1zX6DY3WGMwua-qEeUyeRfKVV5pDIXgtqaJi-uPTsU01EfgSQm8r4s2XuX-HqV4W3zTJ8JmUQBBVKy7VPKWo4ELjaaSXcPinHPXlWgi8EMKA3_d028l6hmcTmebe49WskI5LZG9Q8vSoUPZHf_8jDls40H5UEZjpj6j5zHA"
+					}
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "firstname",
+							"value": "Mutiu",
+							"type": "text"
+						},
+						{
+							"key": "lastname",
+							"value": "Dawodu",
+							"type": "text"
+						},
+						{
+							"key": "accountNumber",
+							"value": "0050332426",
+							"type": "text"
+						},
+						{
+							"key": "bankCode",
+							"value": "058",
+							"type": "text"
+						}
+					]
+				},
+				"url": "https://api.qoreid.com/v1/banks"
+			},
+			"response": []
+		},
+		{
+			"name": "NG - Bank Get bvn details",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": {
+						"token": "eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICIzaVgtaEFrS3RmNUlsYWhRcElrNWwwbFBRVlNmVnpBdG9WVWQ4UXZ1OHJFIn0.eyJleHAiOjE3MDM2MDcxMTgsImlhdCI6MTcwMzU5OTkxOCwianRpIjoiNzM4MzMwMjEtYmZlOS00ZDFmLThmZTEtYjc5NzY2MGZmNWQ2IiwiaXNzIjoiaHR0cHM6Ly9hdXRoLnFvcmVpZC5jb20vYXV0aC9yZWFsbXMvcW9yZWlkIiwiYXVkIjpbInFvcmVpZGFwaSIsImFjY291bnQiXSwic3ViIjoiMWJmNzk2OWMtODJmNi00Njc5LTk2ZTUtM2ZlNzQwNmVmZWRjIiwidHlwIjoiQmVhcmVyIiwiYXpwIjoiMUNVUVEyUEYxMEZIVzlFTFhCT00iLCJhY3IiOiIxIiwicmVhbG1fYWNjZXNzIjp7InJvbGVzIjpbIm9mZmxpbmVfYWNjZXNzIiwidW1hX2F1dGhvcml6YXRpb24iLCJkZWZhdWx0LXJvbGVzLXFvcmVpZCJdfSwicmVzb3VyY2VfYWNjZXNzIjp7InFvcmVpZGFwaSI6eyJyb2xlcyI6WyJ2ZXJpZnlfYnZuX251YmFuX3N1YiIsInZlcmlmeV9udWJhbl9zdWIiXX0sImFjY291bnQiOnsicm9sZXMiOlsibWFuYWdlLWFjY291bnQiLCJtYW5hZ2UtYWNjb3VudC1saW5rcyIsInZpZXctcHJvZmlsZSJdfX0sInNjb3BlIjoicHJvZmlsZSBlbWFpbCIsImVudmlyb25tZW50Ijoic2FuZGJveCIsImNsaWVudElkIjoiMUNVUVEyUEYxMEZIVzlFTFhCT00iLCJjbGllbnRIb3N0IjoiMTkyLjE2OC4xMzIuMjAxIiwib3JnYW5pc2F0aW9uSWQiOjE0NjM0NSwiZW1haWxfdmVyaWZpZWQiOmZhbHNlLCJwcmVmZXJyZWRfdXNlcm5hbWUiOiJzZXJ2aWNlLWFjY291bnQtMWN1cXEycGYxMGZodzllbHhib20iLCJhcHBsaWNhdGlvbklkIjoxMjIyNywiY2xpZW50QWRkcmVzcyI6IjE5Mi4xNjguMTMyLjIwMSJ9.J45lyCjlwHI3_A8TTERZywJb6jQZTbqtQzLVuh0ar3yBnagnVbFYR1NGlNwIKrTaz40RiQBYxKGI6gBsmIqvVLEl4rqqllbDxC9mDPSUQE_okLEJu2_y9oTX3PPLUnyEM8FZLcJGyphn_i1tj02mcN4qaDG8iYtTij5ZAzP31RLny_pMORLcsdXO3VPsusGsMGPfJU29-pFURPQ88uWq7u-xHh_16A-E052JCcGsx9VqayCqtk0Dr3to8S6G6ufXo8LSxjGlQ-gn5e4M-7baf29Bk2YevNhMqWFtifWSg6XlL-TbGQDh-7T6rPFKylrCaEu7qJBc-9tjMHxMNgnrEA"
+					}
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "firstname",
+							"value": "Mutiu",
+							"type": "text"
+						},
+						{
+							"key": "lastname",
+							"value": "Dawodu",
+							"type": "text"
+						},
+						{
+							"key": "accountNumber",
+							"value": "0050332426",
+							"type": "text"
+						},
+						{
+							"key": "bankCode",
+							"value": "185008",
+							"type": "text"
+						}
+					]
+				},
+				"url": "https://api.qoreid.com/v1/ng/identities/bvn-nuban"
+			},
+			"response": []
+		}
+	]
+}
