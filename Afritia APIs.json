@@ -7,53 +7,6 @@
 	},
 	"item": [
 		{
-			"name": "get All Shipping Setting seller",
-			"request": {
-				"method": "POST",
-				"header": [
-					{
-						"key": "Content-Type",
-						"value": "application/x-www-form-urlencoded",
-						"type": "text"
-					},
-					{
-						"key": "X-Requested-With",
-						"value": "XMLHttpRequest",
-						"type": "text"
-					}
-				],
-				"body": {
-					"mode": "formdata",
-					"formdata": [
-						{
-							"key": "storeId",
-							"value": "1",
-							"type": "text"
-						},
-						{
-							"key": "customerToken",
-							"value": "k1zsoq7vm04m75m3vcu9flgutiuwp990",
-							"type": "text",
-							"disabled": true
-						},
-						{
-							"key": "customerToken",
-							"value": "1ytosfoonrc3n91v2yp24n08jfkrp635",
-							"type": "text",
-							"disabled": true
-						},
-						{
-							"key": "customerToken",
-							"value": "1ytosfoonrc3n91v2yp24n08jfkrp635",
-							"type": "text"
-						}
-					]
-				},
-				"url": "https://stage.afritia.com/afritiaapp/customer/shippingsettingdata"
-			},
-			"response": []
-		},
-		{
 			"name": "get Shipping Setting seller Dev",
 			"request": {
 				"method": "POST",
